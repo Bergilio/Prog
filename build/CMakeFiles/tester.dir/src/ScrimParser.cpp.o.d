@@ -172,4 +172,6 @@ CMakeFiles/tester.dir/src/ScrimParser.cpp.o: \
  /home/pedro/LEIC/1stYear/Prog/project/include/Command/Fill.hpp \
  /home/pedro/LEIC/1stYear/Prog/project/include/Command/HMirror.hpp \
  /home/pedro/LEIC/1stYear/Prog/project/include/Command/VMirror.hpp \
+ /home/pedro/LEIC/1stYear/Prog/project/include/Command/Add.hpp \
+ /home/pedro/LEIC/1stYear/Prog/project/include/Command/Move.hpp \
  /home/pedro/LEIC/1stYear/Prog/project/include/Logger.hpp

@@ -7,10 +7,12 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/pedro/LEIC/1stYear/Prog
 set(OLD_GLOB
   "/home/pedro/LEIC/1stYear/Prog/project/src/Color.cpp"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command.cpp"
+  "/home/pedro/LEIC/1stYear/Prog/project/src/Command/Add.cpp"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/Blank.cpp"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/Fill.cpp"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/HMirror.cpp"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/Invert.cpp"
+  "/home/pedro/LEIC/1stYear/Prog/project/src/Command/Move.cpp"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/Open.cpp"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/Replace.cpp"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/Save.cpp"

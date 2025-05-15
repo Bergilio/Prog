@@ -25,6 +25,8 @@ namespace prog {
         const Color &at(int x, int y) const;
 
         const Color &fill() const;
+
+        std::vector<std::vector<Color>> &getColors();
     };
 }
 #endif

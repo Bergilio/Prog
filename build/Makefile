@@ -258,6 +258,33 @@ src/Command.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command.cpp.s
 .PHONY : src/Command.cpp.s
 
+src/Command/Add.o: src/Command/Add.cpp.o
+.PHONY : src/Command/Add.o
+
+# target to build an object file
+src/Command/Add.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Add.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Add.cpp.o
+.PHONY : src/Command/Add.cpp.o
+
+src/Command/Add.i: src/Command/Add.cpp.i
+.PHONY : src/Command/Add.i
+
+# target to preprocess a source file
+src/Command/Add.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Add.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Add.cpp.i
+.PHONY : src/Command/Add.cpp.i
+
+src/Command/Add.s: src/Command/Add.cpp.s
+.PHONY : src/Command/Add.s
+
+# target to generate assembly for a file
+src/Command/Add.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Add.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Add.cpp.s
+.PHONY : src/Command/Add.cpp.s
+
 src/Command/Blank.o: src/Command/Blank.cpp.o
 .PHONY : src/Command/Blank.o
 
@@ -365,6 +392,33 @@ src/Command/Invert.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Invert.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Invert.cpp.s
 .PHONY : src/Command/Invert.cpp.s
+
+src/Command/Move.o: src/Command/Move.cpp.o
+.PHONY : src/Command/Move.o
+
+# target to build an object file
+src/Command/Move.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Move.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Move.cpp.o
+.PHONY : src/Command/Move.cpp.o
+
+src/Command/Move.i: src/Command/Move.cpp.i
+.PHONY : src/Command/Move.i
+
+# target to preprocess a source file
+src/Command/Move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Move.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Move.cpp.i
+.PHONY : src/Command/Move.cpp.i
+
+src/Command/Move.s: src/Command/Move.cpp.s
+.PHONY : src/Command/Move.s
+
+# target to generate assembly for a file
+src/Command/Move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Move.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Move.cpp.s
+.PHONY : src/Command/Move.cpp.s
 
 src/Command/Open.o: src/Command/Open.cpp.o
 .PHONY : src/Command/Open.o
@@ -686,6 +740,9 @@ help:
 	@echo "... src/Command.o"
 	@echo "... src/Command.i"
 	@echo "... src/Command.s"
+	@echo "... src/Command/Add.o"
+	@echo "... src/Command/Add.i"
+	@echo "... src/Command/Add.s"
 	@echo "... src/Command/Blank.o"
 	@echo "... src/Command/Blank.i"
 	@echo "... src/Command/Blank.s"
@@ -698,6 +755,9 @@ help:
 	@echo "... src/Command/Invert.o"
 	@echo "... src/Command/Invert.i"
 	@echo "... src/Command/Invert.s"
+	@echo "... src/Command/Move.o"
+	@echo "... src/Command/Move.i"
+	@echo "... src/Command/Move.s"
 	@echo "... src/Command/Open.o"
 	@echo "... src/Command/Open.i"
 	@echo "... src/Command/Open.s"

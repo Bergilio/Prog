@@ -27,4 +27,8 @@ namespace prog {
     const Color &Image::fill() const {
         return fill_;
     }
+
+    std::vector<std::vector<Color>> &Image::getColors() {
+        return colors;
+    }
 }

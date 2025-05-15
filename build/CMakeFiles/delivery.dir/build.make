@@ -73,6 +73,7 @@ delivery.zip: ../src/Color.cpp
 delivery.zip: ../src/Command.cpp
 delivery.zip: ../src/Command/Add.cpp
 delivery.zip: ../src/Command/Blank.cpp
+delivery.zip: ../src/Command/Crop.cpp
 delivery.zip: ../src/Command/Fill.cpp
 delivery.zip: ../src/Command/HMirror.cpp
 delivery.zip: ../src/Command/Invert.cpp
@@ -82,6 +83,7 @@ delivery.zip: ../src/Command/Replace.cpp
 delivery.zip: ../src/Command/Save.cpp
 delivery.zip: ../src/Command/ToGrayScale.cpp
 delivery.zip: ../src/Command/Vmirror.cpp
+delivery.zip: ../src/Command/slide.cpp
 delivery.zip: ../src/Image.cpp
 delivery.zip: ../src/Logger.cpp
 delivery.zip: ../src/PNG.cpp
@@ -89,7 +91,7 @@ delivery.zip: ../src/Scrim.cpp
 delivery.zip: ../src/ScrimParser.cpp
 delivery.zip: ../src/Utils.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Creating zip archive: /home/pedro/LEIC/1stYear/Prog/project/build/delivery.zip"
-	cd /home/pedro/LEIC/1stYear/Prog/project && /usr/bin/cmake -E tar cf /home/pedro/LEIC/1stYear/Prog/project/build/delivery.zip --format=zip /home/pedro/LEIC/1stYear/Prog/project/include /home/pedro/LEIC/1stYear/Prog/project/src/Color.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Add.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Blank.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Fill.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/HMirror.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Invert.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Move.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Open.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Replace.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Save.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/ToGrayScale.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Vmirror.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Image.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Logger.cpp /home/pedro/LEIC/1stYear/Prog/project/src/PNG.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Scrim.cpp /home/pedro/LEIC/1stYear/Prog/project/src/ScrimParser.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Utils.cpp
+	cd /home/pedro/LEIC/1stYear/Prog/project && /usr/bin/cmake -E tar cf /home/pedro/LEIC/1stYear/Prog/project/build/delivery.zip --format=zip /home/pedro/LEIC/1stYear/Prog/project/include /home/pedro/LEIC/1stYear/Prog/project/src/Color.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Add.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Blank.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Crop.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Fill.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/HMirror.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Invert.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Move.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Open.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Replace.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Save.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/ToGrayScale.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/Vmirror.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Command/slide.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Image.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Logger.cpp /home/pedro/LEIC/1stYear/Prog/project/src/PNG.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Scrim.cpp /home/pedro/LEIC/1stYear/Prog/project/src/ScrimParser.cpp /home/pedro/LEIC/1stYear/Prog/project/src/Utils.cpp
 
 delivery: CMakeFiles/delivery
 delivery: delivery.zip

@@ -312,6 +312,33 @@ src/Command/Blank.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Blank.cpp.s
 .PHONY : src/Command/Blank.cpp.s
 
+src/Command/Crop.o: src/Command/Crop.cpp.o
+.PHONY : src/Command/Crop.o
+
+# target to build an object file
+src/Command/Crop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Crop.cpp.o
+.PHONY : src/Command/Crop.cpp.o
+
+src/Command/Crop.i: src/Command/Crop.cpp.i
+.PHONY : src/Command/Crop.i
+
+# target to preprocess a source file
+src/Command/Crop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Crop.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Crop.cpp.i
+.PHONY : src/Command/Crop.cpp.i
+
+src/Command/Crop.s: src/Command/Crop.cpp.s
+.PHONY : src/Command/Crop.s
+
+# target to generate assembly for a file
+src/Command/Crop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Crop.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Crop.cpp.s
+.PHONY : src/Command/Crop.cpp.s
+
 src/Command/Fill.o: src/Command/Fill.cpp.o
 .PHONY : src/Command/Fill.o
 
@@ -555,6 +582,33 @@ src/Command/Vmirror.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Vmirror.cpp.s
 .PHONY : src/Command/Vmirror.cpp.s
 
+src/Command/slide.o: src/Command/slide.cpp.o
+.PHONY : src/Command/slide.o
+
+# target to build an object file
+src/Command/slide.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/slide.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/slide.cpp.o
+.PHONY : src/Command/slide.cpp.o
+
+src/Command/slide.i: src/Command/slide.cpp.i
+.PHONY : src/Command/slide.i
+
+# target to preprocess a source file
+src/Command/slide.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/slide.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/slide.cpp.i
+.PHONY : src/Command/slide.cpp.i
+
+src/Command/slide.s: src/Command/slide.cpp.s
+.PHONY : src/Command/slide.s
+
+# target to generate assembly for a file
+src/Command/slide.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/slide.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/slide.cpp.s
+.PHONY : src/Command/slide.cpp.s
+
 src/Image.o: src/Image.cpp.o
 .PHONY : src/Image.o
 
@@ -746,6 +800,9 @@ help:
 	@echo "... src/Command/Blank.o"
 	@echo "... src/Command/Blank.i"
 	@echo "... src/Command/Blank.s"
+	@echo "... src/Command/Crop.o"
+	@echo "... src/Command/Crop.i"
+	@echo "... src/Command/Crop.s"
 	@echo "... src/Command/Fill.o"
 	@echo "... src/Command/Fill.i"
 	@echo "... src/Command/Fill.s"
@@ -773,6 +830,9 @@ help:
 	@echo "... src/Command/Vmirror.o"
 	@echo "... src/Command/Vmirror.i"
 	@echo "... src/Command/Vmirror.s"
+	@echo "... src/Command/slide.o"
+	@echo "... src/Command/slide.i"
+	@echo "... src/Command/slide.s"
 	@echo "... src/Image.o"
 	@echo "... src/Image.i"
 	@echo "... src/Image.s"

@@ -1,8 +1,6 @@
 //
 // Created by pedro on 29-04-2025.
 //
-
-// TO DO
 #include "Command/Move.hpp"
 #include "Image.hpp"
 #include "Color.hpp"

@@ -174,4 +174,6 @@ CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: \
  /home/pedro/LEIC/1stYear/Prog/project/include/Command/VMirror.hpp \
  /home/pedro/LEIC/1stYear/Prog/project/include/Command/Add.hpp \
  /home/pedro/LEIC/1stYear/Prog/project/include/Command/Move.hpp \
+ /home/pedro/LEIC/1stYear/Prog/project/include/Command/Slide.hpp \
+ /home/pedro/LEIC/1stYear/Prog/project/include/Command/Crop.hpp \
  /home/pedro/LEIC/1stYear/Prog/project/include/Logger.hpp

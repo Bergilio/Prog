@@ -33,7 +33,7 @@ namespace prog {
 
         std::string ScaleUp::toString() const {
             std::ostringstream ss;
-            ss << name();
+            ss << name() << "x: " << x << " y: " << y;
             return ss.str();
         }
     }

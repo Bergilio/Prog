@@ -1,7 +1,3 @@
-//
-// Created by pedro on 29-04-2025.
-//
-
 #include "Command/VMirror.hpp"
 #include "Image.hpp"
 #include "Color.hpp"

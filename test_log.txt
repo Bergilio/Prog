@@ -290,19 +290,19 @@ Applying command 'RotateRight'
 Applying command 'Save filename:output/rotate_right3.png'
 >>> [55] scaleup1 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'ScaleUP'
+Applying command 'ScaleUPx: 1 y: 2'
 Applying command 'Save filename:output/scaleup1.png'
 >>> [56] scaleup2 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'ScaleUP'
+Applying command 'ScaleUPx: 2 y: 1'
 Applying command 'Save filename:output/scaleup2.png'
 >>> [57] scaleup3 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'ScaleUP'
+Applying command 'ScaleUPx: 2 y: 2'
 Applying command 'Save filename:output/scaleup3.png'
 >>> [58] scaleup4 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'ScaleUP'
+Applying command 'ScaleUPx: 1 y: 1'
 Applying command 'Save filename:output/scaleup4.png'
 >>> [59] slide1 <<<
 Applying command 'Open filename:input/lion.png'

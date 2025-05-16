@@ -1,7 +1,3 @@
-//
-// Created by pedro on 29-04-2025.
-//
-
 #ifndef PROJECT_TOGRAYSCALE_HPP
 #define PROJECT_TOGRAYSCALE_HPP
 

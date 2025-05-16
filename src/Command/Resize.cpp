@@ -1,6 +1,3 @@
-//
-// Created by pedro on 29-04-2025.
-//
 #include "Command/Resize.hpp"
 #include "Image.hpp"
 #include "Color.hpp"

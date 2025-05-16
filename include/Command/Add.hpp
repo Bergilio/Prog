@@ -1,7 +1,3 @@
-//
-// Created by pedro on 29-04-2025.
-//
-
 #ifndef PROJECT_ADD_HPP
 #define PROJECT_ADD_HPP
 

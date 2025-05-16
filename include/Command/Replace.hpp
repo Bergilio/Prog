@@ -1,7 +1,3 @@
-//
-// Created by pedro on 29-04-2025.
-//
-
 #ifndef PROJECT_REPLACE_HPP
 #define PROJECT_REPLACE_HPP
 

@@ -1,0 +1,25 @@
+>>> [1] rotate_left_rotate_right1 <<<
+Applying command 'Open filename:input/lion.png'
+Applying command 'RotateLeft'
+Applying command 'RotateRight'
+Applying command 'Save filename:output/rotate_left_rotate_right1.png'
+>>> [2] rotate_left_rotate_right2 <<<
+Applying command 'Open filename:input/escher-reptiles.png'
+Applying command 'RotateLeft'
+Applying command 'RotateRight'
+Applying command 'RotateRight'
+Applying command 'Save filename:output/rotate_left_rotate_right2.png'
+>>> [3] rotate_right1 <<<
+Applying command 'Open filename:input/mondrian.png'
+Applying command 'RotateRight'
+Applying command 'Save filename:output/rotate_right1.png'
+>>> [4] rotate_right2 <<<
+Applying command 'Open filename:input/escher-hands.png'
+Applying command 'RotateRight'
+Applying command 'RotateRight'
+Applying command 'Save filename:output/rotate_right2.png'
+>>> [5] rotate_right3 <<<
+Applying command 'Open filename:input/escher-angels-demons.png'
+Applying command 'RotateRight'
+Applying command 'RotateRight'
+Applying command 'Save filename:output/rotate_right3.png'

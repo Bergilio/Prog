@@ -501,6 +501,87 @@ src/Command/Replace.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Replace.cpp.s
 .PHONY : src/Command/Replace.cpp.s
 
+src/Command/Resize.o: src/Command/Resize.cpp.o
+.PHONY : src/Command/Resize.o
+
+# target to build an object file
+src/Command/Resize.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Resize.cpp.o
+.PHONY : src/Command/Resize.cpp.o
+
+src/Command/Resize.i: src/Command/Resize.cpp.i
+.PHONY : src/Command/Resize.i
+
+# target to preprocess a source file
+src/Command/Resize.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Resize.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Resize.cpp.i
+.PHONY : src/Command/Resize.cpp.i
+
+src/Command/Resize.s: src/Command/Resize.cpp.s
+.PHONY : src/Command/Resize.s
+
+# target to generate assembly for a file
+src/Command/Resize.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Resize.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Resize.cpp.s
+.PHONY : src/Command/Resize.cpp.s
+
+src/Command/RotateLeft.o: src/Command/RotateLeft.cpp.o
+.PHONY : src/Command/RotateLeft.o
+
+# target to build an object file
+src/Command/RotateLeft.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/RotateLeft.cpp.o
+.PHONY : src/Command/RotateLeft.cpp.o
+
+src/Command/RotateLeft.i: src/Command/RotateLeft.cpp.i
+.PHONY : src/Command/RotateLeft.i
+
+# target to preprocess a source file
+src/Command/RotateLeft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/RotateLeft.cpp.i
+.PHONY : src/Command/RotateLeft.cpp.i
+
+src/Command/RotateLeft.s: src/Command/RotateLeft.cpp.s
+.PHONY : src/Command/RotateLeft.s
+
+# target to generate assembly for a file
+src/Command/RotateLeft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/RotateLeft.cpp.s
+.PHONY : src/Command/RotateLeft.cpp.s
+
+src/Command/RotateRight.o: src/Command/RotateRight.cpp.o
+.PHONY : src/Command/RotateRight.o
+
+# target to build an object file
+src/Command/RotateRight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/RotateRight.cpp.o
+.PHONY : src/Command/RotateRight.cpp.o
+
+src/Command/RotateRight.i: src/Command/RotateRight.cpp.i
+.PHONY : src/Command/RotateRight.i
+
+# target to preprocess a source file
+src/Command/RotateRight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/RotateRight.cpp.i
+.PHONY : src/Command/RotateRight.cpp.i
+
+src/Command/RotateRight.s: src/Command/RotateRight.cpp.s
+.PHONY : src/Command/RotateRight.s
+
+# target to generate assembly for a file
+src/Command/RotateRight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/RotateRight.cpp.s
+.PHONY : src/Command/RotateRight.cpp.s
+
 src/Command/Save.o: src/Command/Save.cpp.o
 .PHONY : src/Command/Save.o
 
@@ -821,6 +902,15 @@ help:
 	@echo "... src/Command/Replace.o"
 	@echo "... src/Command/Replace.i"
 	@echo "... src/Command/Replace.s"
+	@echo "... src/Command/Resize.o"
+	@echo "... src/Command/Resize.i"
+	@echo "... src/Command/Resize.s"
+	@echo "... src/Command/RotateLeft.o"
+	@echo "... src/Command/RotateLeft.i"
+	@echo "... src/Command/RotateLeft.s"
+	@echo "... src/Command/RotateRight.o"
+	@echo "... src/Command/RotateRight.i"
+	@echo "... src/Command/RotateRight.s"
 	@echo "... src/Command/Save.o"
 	@echo "... src/Command/Save.i"
 	@echo "... src/Command/Save.s"

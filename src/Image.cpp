@@ -16,6 +16,16 @@ namespace prog {
         return h;
     }
 
+    int &Image::width() {
+        return w;
+    }
+
+
+    int &Image::height() {
+        return h;
+    }
+
+
     Color &Image::at(int x, int y) {
 		return colors[y][x];
     }

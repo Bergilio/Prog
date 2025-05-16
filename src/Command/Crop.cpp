@@ -24,12 +24,14 @@ namespace prog {
                 }
             }
             img->getColors() = newColors;
+            img->width() = w;
+            img->height() = h;
             return img;
         }
 
         std::string Crop::toString() const {
             std::ostringstream ss;
-            ss << name() <<" x:" << x << " y:" << y;
+            ss << name() <<" x:" << x << " y:" << y << " w:" << w << " h:" << h;
             return ss.str();
         }
     }

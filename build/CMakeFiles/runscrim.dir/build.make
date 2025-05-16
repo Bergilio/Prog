@@ -223,10 +223,52 @@ CMakeFiles/runscrim.dir/src/Command/Replace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/Replace.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pedro/LEIC/1stYear/Prog/project/src/Command/Replace.cpp -o CMakeFiles/runscrim.dir/src/Command/Replace.cpp.s
 
+CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o: ../src/Command/Resize.cpp
+CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Command/Resize.cpp
+
+CMakeFiles/runscrim.dir/src/Command/Resize.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/Resize.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pedro/LEIC/1stYear/Prog/project/src/Command/Resize.cpp > CMakeFiles/runscrim.dir/src/Command/Resize.cpp.i
+
+CMakeFiles/runscrim.dir/src/Command/Resize.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/Resize.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pedro/LEIC/1stYear/Prog/project/src/Command/Resize.cpp -o CMakeFiles/runscrim.dir/src/Command/Resize.cpp.s
+
+CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o: ../src/Command/RotateLeft.cpp
+CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Command/RotateLeft.cpp
+
+CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pedro/LEIC/1stYear/Prog/project/src/Command/RotateLeft.cpp > CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.i
+
+CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pedro/LEIC/1stYear/Prog/project/src/Command/RotateLeft.cpp -o CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.s
+
+CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o: ../src/Command/RotateRight.cpp
+CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Command/RotateRight.cpp
+
+CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pedro/LEIC/1stYear/Prog/project/src/Command/RotateRight.cpp > CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.i
+
+CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pedro/LEIC/1stYear/Prog/project/src/Command/RotateRight.cpp -o CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.s
+
 CMakeFiles/runscrim.dir/src/Command/Save.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/Save.cpp.o: ../src/Command/Save.cpp
 CMakeFiles/runscrim.dir/src/Command/Save.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Save.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Save.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Save.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Save.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Save.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Command/Save.cpp
 
 CMakeFiles/runscrim.dir/src/Command/Save.cpp.i: cmake_force
@@ -240,7 +282,7 @@ CMakeFiles/runscrim.dir/src/Command/Save.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o: ../src/Command/ToGrayScale.cpp
 CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Command/ToGrayScale.cpp
 
 CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.i: cmake_force
@@ -254,7 +296,7 @@ CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.o: ../src/Command/Vmirror.cpp
 CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Command/Vmirror.cpp
 
 CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.i: cmake_force
@@ -268,7 +310,7 @@ CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Command/slide.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/slide.cpp.o: ../src/Command/slide.cpp
 CMakeFiles/runscrim.dir/src/Command/slide.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/runscrim.dir/src/Command/slide.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/runscrim.dir/src/Command/slide.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/slide.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/slide.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/slide.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Command/slide.cpp
 
 CMakeFiles/runscrim.dir/src/Command/slide.cpp.i: cmake_force
@@ -282,7 +324,7 @@ CMakeFiles/runscrim.dir/src/Command/slide.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Image.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Image.cpp.o: ../src/Image.cpp
 CMakeFiles/runscrim.dir/src/Image.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/runscrim.dir/src/Image.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/runscrim.dir/src/Image.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Image.cpp.o -MF CMakeFiles/runscrim.dir/src/Image.cpp.o.d -o CMakeFiles/runscrim.dir/src/Image.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Image.cpp
 
 CMakeFiles/runscrim.dir/src/Image.cpp.i: cmake_force
@@ -296,7 +338,7 @@ CMakeFiles/runscrim.dir/src/Image.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Logger.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Logger.cpp.o: ../src/Logger.cpp
 CMakeFiles/runscrim.dir/src/Logger.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/runscrim.dir/src/Logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/runscrim.dir/src/Logger.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Logger.cpp.o -MF CMakeFiles/runscrim.dir/src/Logger.cpp.o.d -o CMakeFiles/runscrim.dir/src/Logger.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Logger.cpp
 
 CMakeFiles/runscrim.dir/src/Logger.cpp.i: cmake_force
@@ -310,7 +352,7 @@ CMakeFiles/runscrim.dir/src/Logger.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/PNG.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/PNG.cpp.o: ../src/PNG.cpp
 CMakeFiles/runscrim.dir/src/PNG.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/runscrim.dir/src/PNG.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/runscrim.dir/src/PNG.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/PNG.cpp.o -MF CMakeFiles/runscrim.dir/src/PNG.cpp.o.d -o CMakeFiles/runscrim.dir/src/PNG.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/PNG.cpp
 
 CMakeFiles/runscrim.dir/src/PNG.cpp.i: cmake_force
@@ -324,7 +366,7 @@ CMakeFiles/runscrim.dir/src/PNG.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Scrim.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Scrim.cpp.o: ../src/Scrim.cpp
 CMakeFiles/runscrim.dir/src/Scrim.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/runscrim.dir/src/Scrim.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/runscrim.dir/src/Scrim.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Scrim.cpp.o -MF CMakeFiles/runscrim.dir/src/Scrim.cpp.o.d -o CMakeFiles/runscrim.dir/src/Scrim.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Scrim.cpp
 
 CMakeFiles/runscrim.dir/src/Scrim.cpp.i: cmake_force
@@ -338,7 +380,7 @@ CMakeFiles/runscrim.dir/src/Scrim.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: ../src/ScrimParser.cpp
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o -MF CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o.d -o CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/ScrimParser.cpp
 
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.i: cmake_force
@@ -352,7 +394,7 @@ CMakeFiles/runscrim.dir/src/ScrimParser.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Utils.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Utils.cpp.o: ../src/Utils.cpp
 CMakeFiles/runscrim.dir/src/Utils.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/runscrim.dir/src/Utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/runscrim.dir/src/Utils.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Utils.cpp.o -MF CMakeFiles/runscrim.dir/src/Utils.cpp.o.d -o CMakeFiles/runscrim.dir/src/Utils.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Utils.cpp
 
 CMakeFiles/runscrim.dir/src/Utils.cpp.i: cmake_force
@@ -366,7 +408,7 @@ CMakeFiles/runscrim.dir/src/Utils.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.o: ../main/RunScrim.cpp
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/runscrim.dir/main/RunScrim.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/runscrim.dir/main/RunScrim.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/main/RunScrim.cpp.o -MF CMakeFiles/runscrim.dir/main/RunScrim.cpp.o.d -o CMakeFiles/runscrim.dir/main/RunScrim.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/main/RunScrim.cpp
 
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.i: cmake_force
@@ -390,6 +432,9 @@ runscrim_OBJECTS = \
 "CMakeFiles/runscrim.dir/src/Command/Move.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/Open.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/Save.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.o" \
@@ -416,6 +461,9 @@ runscrim: CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/Move.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/Open.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/Save.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.o
@@ -429,7 +477,7 @@ runscrim: CMakeFiles/runscrim.dir/src/Utils.cpp.o
 runscrim: CMakeFiles/runscrim.dir/main/RunScrim.cpp.o
 runscrim: CMakeFiles/runscrim.dir/build.make
 runscrim: CMakeFiles/runscrim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable runscrim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable runscrim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runscrim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

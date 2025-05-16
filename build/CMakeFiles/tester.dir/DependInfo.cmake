@@ -24,6 +24,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/RotateLeft.cpp" "CMakeFiles/tester.dir/src/Command/RotateLeft.cpp.o" "gcc" "CMakeFiles/tester.dir/src/Command/RotateLeft.cpp.o.d"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/RotateRight.cpp" "CMakeFiles/tester.dir/src/Command/RotateRight.cpp.o" "gcc" "CMakeFiles/tester.dir/src/Command/RotateRight.cpp.o.d"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/Save.cpp" "CMakeFiles/tester.dir/src/Command/Save.cpp.o" "gcc" "CMakeFiles/tester.dir/src/Command/Save.cpp.o.d"
+  "/home/pedro/LEIC/1stYear/Prog/project/src/Command/ScaleUp.cpp" "CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o" "gcc" "CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o.d"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/ToGrayScale.cpp" "CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o" "gcc" "CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o.d"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/Vmirror.cpp" "CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o" "gcc" "CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o.d"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/slide.cpp" "CMakeFiles/tester.dir/src/Command/slide.cpp.o" "gcc" "CMakeFiles/tester.dir/src/Command/slide.cpp.o.d"

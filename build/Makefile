@@ -609,6 +609,33 @@ src/Command/Save.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Save.cpp.s
 .PHONY : src/Command/Save.cpp.s
 
+src/Command/ScaleUp.o: src/Command/ScaleUp.cpp.o
+.PHONY : src/Command/ScaleUp.o
+
+# target to build an object file
+src/Command/ScaleUp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/ScaleUp.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o
+.PHONY : src/Command/ScaleUp.cpp.o
+
+src/Command/ScaleUp.i: src/Command/ScaleUp.cpp.i
+.PHONY : src/Command/ScaleUp.i
+
+# target to preprocess a source file
+src/Command/ScaleUp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/ScaleUp.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.i
+.PHONY : src/Command/ScaleUp.cpp.i
+
+src/Command/ScaleUp.s: src/Command/ScaleUp.cpp.s
+.PHONY : src/Command/ScaleUp.s
+
+# target to generate assembly for a file
+src/Command/ScaleUp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/ScaleUp.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.s
+.PHONY : src/Command/ScaleUp.cpp.s
+
 src/Command/ToGrayScale.o: src/Command/ToGrayScale.cpp.o
 .PHONY : src/Command/ToGrayScale.o
 
@@ -914,6 +941,9 @@ help:
 	@echo "... src/Command/Save.o"
 	@echo "... src/Command/Save.i"
 	@echo "... src/Command/Save.s"
+	@echo "... src/Command/ScaleUp.o"
+	@echo "... src/Command/ScaleUp.i"
+	@echo "... src/Command/ScaleUp.s"
 	@echo "... src/Command/ToGrayScale.o"
 	@echo "... src/Command/ToGrayScale.i"
 	@echo "... src/Command/ToGrayScale.s"

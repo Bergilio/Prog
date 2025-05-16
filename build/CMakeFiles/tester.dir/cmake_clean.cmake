@@ -31,6 +31,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tester.dir/src/Command/RotateRight.cpp.o.d"
   "CMakeFiles/tester.dir/src/Command/Save.cpp.o"
   "CMakeFiles/tester.dir/src/Command/Save.cpp.o.d"
+  "CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o"
+  "CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o.d"
   "CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o"
   "CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o.d"
   "CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o"

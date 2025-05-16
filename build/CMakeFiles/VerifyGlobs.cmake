@@ -20,6 +20,7 @@ set(OLD_GLOB
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/RotateLeft.cpp"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/RotateRight.cpp"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/Save.cpp"
+  "/home/pedro/LEIC/1stYear/Prog/project/src/Command/ScaleUp.cpp"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/ToGrayScale.cpp"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/Vmirror.cpp"
   "/home/pedro/LEIC/1stYear/Prog/project/src/Command/slide.cpp"

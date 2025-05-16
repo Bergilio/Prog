@@ -279,10 +279,24 @@ CMakeFiles/tester.dir/src/Command/Save.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Save.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pedro/LEIC/1stYear/Prog/project/src/Command/Save.cpp -o CMakeFiles/tester.dir/src/Command/Save.cpp.s
 
+CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o: CMakeFiles/tester.dir/flags.make
+CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o: ../src/Command/ScaleUp.cpp
+CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o -MF CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o.d -o CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Command/ScaleUp.cpp
+
+CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pedro/LEIC/1stYear/Prog/project/src/Command/ScaleUp.cpp > CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.i
+
+CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pedro/LEIC/1stYear/Prog/project/src/Command/ScaleUp.cpp -o CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.s
+
 CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o: ../src/Command/ToGrayScale.cpp
 CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o -MF CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o.d -o CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Command/ToGrayScale.cpp
 
 CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.i: cmake_force
@@ -296,7 +310,7 @@ CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o: ../src/Command/Vmirror.cpp
 CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o -MF CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Command/Vmirror.cpp
 
 CMakeFiles/tester.dir/src/Command/Vmirror.cpp.i: cmake_force
@@ -310,7 +324,7 @@ CMakeFiles/tester.dir/src/Command/Vmirror.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/Command/slide.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Command/slide.cpp.o: ../src/Command/slide.cpp
 CMakeFiles/tester.dir/src/Command/slide.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/tester.dir/src/Command/slide.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/tester.dir/src/Command/slide.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/slide.cpp.o -MF CMakeFiles/tester.dir/src/Command/slide.cpp.o.d -o CMakeFiles/tester.dir/src/Command/slide.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Command/slide.cpp
 
 CMakeFiles/tester.dir/src/Command/slide.cpp.i: cmake_force
@@ -324,7 +338,7 @@ CMakeFiles/tester.dir/src/Command/slide.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/Image.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Image.cpp.o: ../src/Image.cpp
 CMakeFiles/tester.dir/src/Image.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/tester.dir/src/Image.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/tester.dir/src/Image.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Image.cpp.o -MF CMakeFiles/tester.dir/src/Image.cpp.o.d -o CMakeFiles/tester.dir/src/Image.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Image.cpp
 
 CMakeFiles/tester.dir/src/Image.cpp.i: cmake_force
@@ -338,7 +352,7 @@ CMakeFiles/tester.dir/src/Image.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/Logger.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Logger.cpp.o: ../src/Logger.cpp
 CMakeFiles/tester.dir/src/Logger.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/tester.dir/src/Logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/tester.dir/src/Logger.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Logger.cpp.o -MF CMakeFiles/tester.dir/src/Logger.cpp.o.d -o CMakeFiles/tester.dir/src/Logger.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Logger.cpp
 
 CMakeFiles/tester.dir/src/Logger.cpp.i: cmake_force
@@ -352,7 +366,7 @@ CMakeFiles/tester.dir/src/Logger.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/PNG.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/PNG.cpp.o: ../src/PNG.cpp
 CMakeFiles/tester.dir/src/PNG.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/tester.dir/src/PNG.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/tester.dir/src/PNG.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/PNG.cpp.o -MF CMakeFiles/tester.dir/src/PNG.cpp.o.d -o CMakeFiles/tester.dir/src/PNG.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/PNG.cpp
 
 CMakeFiles/tester.dir/src/PNG.cpp.i: cmake_force
@@ -366,7 +380,7 @@ CMakeFiles/tester.dir/src/PNG.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/Scrim.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Scrim.cpp.o: ../src/Scrim.cpp
 CMakeFiles/tester.dir/src/Scrim.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/tester.dir/src/Scrim.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/tester.dir/src/Scrim.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Scrim.cpp.o -MF CMakeFiles/tester.dir/src/Scrim.cpp.o.d -o CMakeFiles/tester.dir/src/Scrim.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Scrim.cpp
 
 CMakeFiles/tester.dir/src/Scrim.cpp.i: cmake_force
@@ -380,7 +394,7 @@ CMakeFiles/tester.dir/src/Scrim.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/ScrimParser.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/ScrimParser.cpp.o: ../src/ScrimParser.cpp
 CMakeFiles/tester.dir/src/ScrimParser.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/tester.dir/src/ScrimParser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/tester.dir/src/ScrimParser.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/ScrimParser.cpp.o -MF CMakeFiles/tester.dir/src/ScrimParser.cpp.o.d -o CMakeFiles/tester.dir/src/ScrimParser.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/ScrimParser.cpp
 
 CMakeFiles/tester.dir/src/ScrimParser.cpp.i: cmake_force
@@ -394,7 +408,7 @@ CMakeFiles/tester.dir/src/ScrimParser.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/Utils.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Utils.cpp.o: ../src/Utils.cpp
 CMakeFiles/tester.dir/src/Utils.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/tester.dir/src/Utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/tester.dir/src/Utils.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Utils.cpp.o -MF CMakeFiles/tester.dir/src/Utils.cpp.o.d -o CMakeFiles/tester.dir/src/Utils.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/src/Utils.cpp
 
 CMakeFiles/tester.dir/src/Utils.cpp.i: cmake_force
@@ -408,7 +422,7 @@ CMakeFiles/tester.dir/src/Utils.cpp.s: cmake_force
 CMakeFiles/tester.dir/main/Tester.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/main/Tester.cpp.o: ../main/Tester.cpp
 CMakeFiles/tester.dir/main/Tester.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/tester.dir/main/Tester.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/tester.dir/main/Tester.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/main/Tester.cpp.o -MF CMakeFiles/tester.dir/main/Tester.cpp.o.d -o CMakeFiles/tester.dir/main/Tester.cpp.o -c /home/pedro/LEIC/1stYear/Prog/project/main/Tester.cpp
 
 CMakeFiles/tester.dir/main/Tester.cpp.i: cmake_force
@@ -436,6 +450,7 @@ tester_OBJECTS = \
 "CMakeFiles/tester.dir/src/Command/RotateLeft.cpp.o" \
 "CMakeFiles/tester.dir/src/Command/RotateRight.cpp.o" \
 "CMakeFiles/tester.dir/src/Command/Save.cpp.o" \
+"CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o" \
 "CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o" \
 "CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o" \
 "CMakeFiles/tester.dir/src/Command/slide.cpp.o" \
@@ -465,6 +480,7 @@ tester: CMakeFiles/tester.dir/src/Command/Resize.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/RotateLeft.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/RotateRight.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/Save.cpp.o
+tester: CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/slide.cpp.o
@@ -477,7 +493,7 @@ tester: CMakeFiles/tester.dir/src/Utils.cpp.o
 tester: CMakeFiles/tester.dir/main/Tester.cpp.o
 tester: CMakeFiles/tester.dir/build.make
 tester: CMakeFiles/tester.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable tester"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable tester"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tester.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

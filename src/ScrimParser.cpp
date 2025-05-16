@@ -19,6 +19,7 @@
 #include "Command/Resize.hpp"
 #include "Command/RotateLeft.hpp"
 #include "Command/RotateRight.hpp"
+#include "Command/ScaleUp.hpp"
 #include "Logger.hpp"
 
 #include <fstream>
@@ -163,6 +164,12 @@ namespace prog {
 
         if (command_name == "rotate_right") {
             return new command::RotateRight();
+        }
+
+        if (command_name == "scaleup") {
+            int x, y;
+            input >> x >> y;
+            return new command::ScaleUp(x, y);
         }
 
         *Logger::err() << "Command not recognized: '" + command_name + "'\n";

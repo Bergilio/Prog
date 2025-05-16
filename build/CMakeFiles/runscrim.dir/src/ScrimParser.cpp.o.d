@@ -179,4 +179,5 @@ CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: \
  /home/pedro/LEIC/1stYear/Prog/project/include/Command/Resize.hpp \
  /home/pedro/LEIC/1stYear/Prog/project/include/Command/RotateLeft.hpp \
  /home/pedro/LEIC/1stYear/Prog/project/include/Command/RotateRight.hpp \
+ /home/pedro/LEIC/1stYear/Prog/project/include/Command/ScaleUp.hpp \
  /home/pedro/LEIC/1stYear/Prog/project/include/Logger.hpp

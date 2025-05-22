@@ -1,0 +1,5 @@
+<map id="prog::command::RotateRight" name="prog::command::RotateRight">
+<area shape="rect" id="node1" title="Command to rotate an image 90 degrees to the right." alt="" coords="5,171,215,197"/>
+<area shape="rect" id="node2" href="$classprog_1_1Command.html" title=" " alt="" coords="47,95,173,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="81,5,139,32"/>
+</map>

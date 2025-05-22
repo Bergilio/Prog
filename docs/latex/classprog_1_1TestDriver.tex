@@ -1,0 +1,133 @@
+\hypertarget{classprog_1_1TestDriver}{}\doxysection{prog\+::Test\+Driver Class Reference}
+\label{classprog_1_1TestDriver}\index{prog::TestDriver@{prog::TestDriver}}
+
+
+Collaboration diagram for prog\+::Test\+Driver\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=177pt]{classprog_1_1TestDriver__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1TestDriver_aea9e45979f6bce6412071abbefede3b8}{Test\+Driver}} (const string \&\mbox{\hyperlink{classprog_1_1TestDriver_a2d1fa152934f647fa73f9b955e30bac7}{root\+\_\+path}})
+\item 
+void \mbox{\hyperlink{classprog_1_1TestDriver_a682b703fe396baefe5dd00dacd269ef0}{test\+\_\+scrims}} (const string \&spec)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classprog_1_1TestDriver_afa89ae07c1a9e11440436f015404a103}{color\+\_\+tests}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classprog_1_1TestDriver_ad293e6c2ef370c2302909906a557495a}{test\+\_\+script}} (const string \&id)
+\item 
+void \mbox{\hyperlink{classprog_1_1TestDriver_a9725357981c4ec3ffdf4d50cf1162e86}{on\+Test\+Begin}} (const string \&id)
+\item 
+void \mbox{\hyperlink{classprog_1_1TestDriver_a04ed17b46a09ed528a8c7846d0c4d1c5}{on\+Test\+Completion}} (bool success)
+\item 
+void \mbox{\hyperlink{classprog_1_1TestDriver_a2c396729453663496c562b215516546a}{run\+\_\+test}} (const string \&script\+\_\+id)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classprog_1_1TestDriver_a2d1fa152934f647fa73f9b955e30bac7}{root\+\_\+path}}
+\item 
+int \mbox{\hyperlink{classprog_1_1TestDriver_af3ba576747a816c5589079b62652d0e1}{total\+\_\+tests}} = 0
+\item 
+int \mbox{\hyperlink{classprog_1_1TestDriver_a2689ee6f4b3a1498d90b2563bb808048}{passed\+\_\+tests}} = 0
+\item 
+int \mbox{\hyperlink{classprog_1_1TestDriver_a4fcfc4bec822bb508d5e7969d147e8df}{failed\+\_\+tests}} = 0
+\item 
+std\+::ofstream \mbox{\hyperlink{classprog_1_1TestDriver_a06b7096349d48dd6741833ac75ad0a27}{logfile}} = std\+::ofstream(\char`\"{}test\+\_\+log.\+txt\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1TestDriver_aea9e45979f6bce6412071abbefede3b8}\label{classprog_1_1TestDriver_aea9e45979f6bce6412071abbefede3b8}} 
+\index{prog::TestDriver@{prog::TestDriver}!TestDriver@{TestDriver}}
+\index{TestDriver@{TestDriver}!prog::TestDriver@{prog::TestDriver}}
+\doxysubsubsection{\texorpdfstring{TestDriver()}{TestDriver()}}
+{\footnotesize\ttfamily prog\+::\+Test\+Driver\+::\+Test\+Driver (\begin{DoxyParamCaption}\item[{const string \&}]{root\+\_\+path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1TestDriver_afa89ae07c1a9e11440436f015404a103}\label{classprog_1_1TestDriver_afa89ae07c1a9e11440436f015404a103}} 
+\index{prog::TestDriver@{prog::TestDriver}!color\_tests@{color\_tests}}
+\index{color\_tests@{color\_tests}!prog::TestDriver@{prog::TestDriver}}
+\doxysubsubsection{\texorpdfstring{color\_tests()}{color\_tests()}}
+{\footnotesize\ttfamily static void prog\+::\+Test\+Driver\+::color\+\_\+tests (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classprog_1_1TestDriver_a9725357981c4ec3ffdf4d50cf1162e86}\label{classprog_1_1TestDriver_a9725357981c4ec3ffdf4d50cf1162e86}} 
+\index{prog::TestDriver@{prog::TestDriver}!onTestBegin@{onTestBegin}}
+\index{onTestBegin@{onTestBegin}!prog::TestDriver@{prog::TestDriver}}
+\doxysubsubsection{\texorpdfstring{onTestBegin()}{onTestBegin()}}
+{\footnotesize\ttfamily void prog\+::\+Test\+Driver\+::on\+Test\+Begin (\begin{DoxyParamCaption}\item[{const string \&}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1TestDriver_a04ed17b46a09ed528a8c7846d0c4d1c5}\label{classprog_1_1TestDriver_a04ed17b46a09ed528a8c7846d0c4d1c5}} 
+\index{prog::TestDriver@{prog::TestDriver}!onTestCompletion@{onTestCompletion}}
+\index{onTestCompletion@{onTestCompletion}!prog::TestDriver@{prog::TestDriver}}
+\doxysubsubsection{\texorpdfstring{onTestCompletion()}{onTestCompletion()}}
+{\footnotesize\ttfamily void prog\+::\+Test\+Driver\+::on\+Test\+Completion (\begin{DoxyParamCaption}\item[{bool}]{success }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1TestDriver_a2c396729453663496c562b215516546a}\label{classprog_1_1TestDriver_a2c396729453663496c562b215516546a}} 
+\index{prog::TestDriver@{prog::TestDriver}!run\_test@{run\_test}}
+\index{run\_test@{run\_test}!prog::TestDriver@{prog::TestDriver}}
+\doxysubsubsection{\texorpdfstring{run\_test()}{run\_test()}}
+{\footnotesize\ttfamily void prog\+::\+Test\+Driver\+::run\+\_\+test (\begin{DoxyParamCaption}\item[{const string \&}]{script\+\_\+id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1TestDriver_a682b703fe396baefe5dd00dacd269ef0}\label{classprog_1_1TestDriver_a682b703fe396baefe5dd00dacd269ef0}} 
+\index{prog::TestDriver@{prog::TestDriver}!test\_scrims@{test\_scrims}}
+\index{test\_scrims@{test\_scrims}!prog::TestDriver@{prog::TestDriver}}
+\doxysubsubsection{\texorpdfstring{test\_scrims()}{test\_scrims()}}
+{\footnotesize\ttfamily void prog\+::\+Test\+Driver\+::test\+\_\+scrims (\begin{DoxyParamCaption}\item[{const string \&}]{spec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classprog_1_1TestDriver_ad293e6c2ef370c2302909906a557495a}\label{classprog_1_1TestDriver_ad293e6c2ef370c2302909906a557495a}} 
+\index{prog::TestDriver@{prog::TestDriver}!test\_script@{test\_script}}
+\index{test\_script@{test\_script}!prog::TestDriver@{prog::TestDriver}}
+\doxysubsubsection{\texorpdfstring{test\_script()}{test\_script()}}
+{\footnotesize\ttfamily bool prog\+::\+Test\+Driver\+::test\+\_\+script (\begin{DoxyParamCaption}\item[{const string \&}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classprog_1_1TestDriver_a4fcfc4bec822bb508d5e7969d147e8df}\label{classprog_1_1TestDriver_a4fcfc4bec822bb508d5e7969d147e8df}} 
+\index{prog::TestDriver@{prog::TestDriver}!failed\_tests@{failed\_tests}}
+\index{failed\_tests@{failed\_tests}!prog::TestDriver@{prog::TestDriver}}
+\doxysubsubsection{\texorpdfstring{failed\_tests}{failed\_tests}}
+{\footnotesize\ttfamily int prog\+::\+Test\+Driver\+::failed\+\_\+tests = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1TestDriver_a06b7096349d48dd6741833ac75ad0a27}\label{classprog_1_1TestDriver_a06b7096349d48dd6741833ac75ad0a27}} 
+\index{prog::TestDriver@{prog::TestDriver}!logfile@{logfile}}
+\index{logfile@{logfile}!prog::TestDriver@{prog::TestDriver}}
+\doxysubsubsection{\texorpdfstring{logfile}{logfile}}
+{\footnotesize\ttfamily std\+::ofstream prog\+::\+Test\+Driver\+::logfile = std\+::ofstream(\char`\"{}test\+\_\+log.\+txt\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1TestDriver_a2689ee6f4b3a1498d90b2563bb808048}\label{classprog_1_1TestDriver_a2689ee6f4b3a1498d90b2563bb808048}} 
+\index{prog::TestDriver@{prog::TestDriver}!passed\_tests@{passed\_tests}}
+\index{passed\_tests@{passed\_tests}!prog::TestDriver@{prog::TestDriver}}
+\doxysubsubsection{\texorpdfstring{passed\_tests}{passed\_tests}}
+{\footnotesize\ttfamily int prog\+::\+Test\+Driver\+::passed\+\_\+tests = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1TestDriver_a2d1fa152934f647fa73f9b955e30bac7}\label{classprog_1_1TestDriver_a2d1fa152934f647fa73f9b955e30bac7}} 
+\index{prog::TestDriver@{prog::TestDriver}!root\_path@{root\_path}}
+\index{root\_path@{root\_path}!prog::TestDriver@{prog::TestDriver}}
+\doxysubsubsection{\texorpdfstring{root\_path}{root\_path}}
+{\footnotesize\ttfamily string prog\+::\+Test\+Driver\+::root\+\_\+path\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1TestDriver_af3ba576747a816c5589079b62652d0e1}\label{classprog_1_1TestDriver_af3ba576747a816c5589079b62652d0e1}} 
+\index{prog::TestDriver@{prog::TestDriver}!total\_tests@{total\_tests}}
+\index{total\_tests@{total\_tests}!prog::TestDriver@{prog::TestDriver}}
+\doxysubsubsection{\texorpdfstring{total\_tests}{total\_tests}}
+{\footnotesize\ttfamily int prog\+::\+Test\+Driver\+::total\+\_\+tests = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+main/\mbox{\hyperlink{Tester_8cpp}{Tester.\+cpp}}\end{DoxyCompactItemize}

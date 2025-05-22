@@ -1,0 +1,111 @@
+\hypertarget{classprog_1_1command_1_1Open}{}\doxysection{prog\+::command\+::Open Class Reference}
+\label{classprog_1_1command_1_1Open}\index{prog::command::Open@{prog::command::Open}}
+
+
+{\ttfamily \#include $<$Open.\+hpp$>$}
+
+
+
+Inheritance diagram for prog\+::command\+::Open\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=205pt]{classprog_1_1command_1_1Open__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prog\+::command\+::Open\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{classprog_1_1command_1_1Open__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Open_a8594739cc94ec22453d60f23765b1da0}{Open}} (std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Open_a016cf1cd499577afd7f46881aa03a012}{filename}})
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Open_aa25769c460baab3b9954d82d379157ee}{$\sim$\+Open}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1command_1_1Open_aa9b5d7995f3259a23b2302ba4ea72fa4}{apply}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img) override
+\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Open_a5911cd3a9c156503988c9a4178a533e7}{to\+String}} () const override
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Open_a016cf1cd499577afd7f46881aa03a012}{filename}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Open_a8594739cc94ec22453d60f23765b1da0}\label{classprog_1_1command_1_1Open_a8594739cc94ec22453d60f23765b1da0}} 
+\index{prog::command::Open@{prog::command::Open}!Open@{Open}}
+\index{Open@{Open}!prog::command::Open@{prog::command::Open}}
+\doxysubsubsection{\texorpdfstring{Open()}{Open()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Open\+::\+Open (\begin{DoxyParamCaption}\item[{std\+::string}]{filename }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Open_aa25769c460baab3b9954d82d379157ee}\label{classprog_1_1command_1_1Open_aa25769c460baab3b9954d82d379157ee}} 
+\index{prog::command::Open@{prog::command::Open}!````~Open@{$\sim$Open}}
+\index{````~Open@{$\sim$Open}!prog::command::Open@{prog::command::Open}}
+\doxysubsubsection{\texorpdfstring{$\sim$Open()}{~Open()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Open\+::$\sim$\+Open (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Open_aa9b5d7995f3259a23b2302ba4ea72fa4}\label{classprog_1_1command_1_1Open_aa9b5d7995f3259a23b2302ba4ea72fa4}} 
+\index{prog::command::Open@{prog::command::Open}!apply@{apply}}
+\index{apply@{apply}!prog::command::Open@{prog::command::Open}}
+\doxysubsubsection{\texorpdfstring{apply()}{apply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::command\+::\+Open\+::apply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Applies this command to an image.
+
+
+\begin{DoxyParams}{Parameters}
+{\em img} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the image after the command (can be the same pointer or a new one). If a new pointer is returned, the previous one is deleted. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}{prog\+::\+Command}}.
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Open_a5911cd3a9c156503988c9a4178a533e7}\label{classprog_1_1command_1_1Open_a5911cd3a9c156503988c9a4178a533e7}} 
+\index{prog::command::Open@{prog::command::Open}!toString@{toString}}
+\index{toString@{toString}!prog::command::Open@{prog::command::Open}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+Open\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+string representation of this command, for printing
+\end{DoxyReturn}
+Default implementation that just returns the name.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}{prog\+::\+Command}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Open_a016cf1cd499577afd7f46881aa03a012}\label{classprog_1_1command_1_1Open_a016cf1cd499577afd7f46881aa03a012}} 
+\index{prog::command::Open@{prog::command::Open}!filename@{filename}}
+\index{filename@{filename}!prog::command::Open@{prog::command::Open}}
+\doxysubsubsection{\texorpdfstring{filename}{filename}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+Open\+::filename\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Command/\mbox{\hyperlink{Open_8hpp}{Open.\+hpp}}\item 
+src/\+Command/\mbox{\hyperlink{Open_8cpp}{Open.\+cpp}}\end{DoxyCompactItemize}

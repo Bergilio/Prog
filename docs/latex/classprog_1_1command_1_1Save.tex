@@ -1,0 +1,111 @@
+\hypertarget{classprog_1_1command_1_1Save}{}\doxysection{prog\+::command\+::Save Class Reference}
+\label{classprog_1_1command_1_1Save}\index{prog::command::Save@{prog::command::Save}}
+
+
+{\ttfamily \#include $<$Save.\+hpp$>$}
+
+
+
+Inheritance diagram for prog\+::command\+::Save\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=203pt]{classprog_1_1command_1_1Save__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prog\+::command\+::Save\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{classprog_1_1command_1_1Save__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Save_a5413d9c9297da1667126db69d171e47d}{Save}} (std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Save_a63cda00cdae15606d3abddf056f1697f}{filename}})
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Save_a78e97b4942f0999875ee17b725b78d54}{$\sim$\+Save}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1command_1_1Save_ab15a57224250e3f000d18311ca00f433}{apply}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img) override
+\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Save_ab873c11c5fbecc263849959a5cea3ccf}{to\+String}} () const override
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Save_a63cda00cdae15606d3abddf056f1697f}{filename}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Save_a5413d9c9297da1667126db69d171e47d}\label{classprog_1_1command_1_1Save_a5413d9c9297da1667126db69d171e47d}} 
+\index{prog::command::Save@{prog::command::Save}!Save@{Save}}
+\index{Save@{Save}!prog::command::Save@{prog::command::Save}}
+\doxysubsubsection{\texorpdfstring{Save()}{Save()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Save\+::\+Save (\begin{DoxyParamCaption}\item[{std\+::string}]{filename }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Save_a78e97b4942f0999875ee17b725b78d54}\label{classprog_1_1command_1_1Save_a78e97b4942f0999875ee17b725b78d54}} 
+\index{prog::command::Save@{prog::command::Save}!````~Save@{$\sim$Save}}
+\index{````~Save@{$\sim$Save}!prog::command::Save@{prog::command::Save}}
+\doxysubsubsection{\texorpdfstring{$\sim$Save()}{~Save()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Save\+::$\sim$\+Save (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Save_ab15a57224250e3f000d18311ca00f433}\label{classprog_1_1command_1_1Save_ab15a57224250e3f000d18311ca00f433}} 
+\index{prog::command::Save@{prog::command::Save}!apply@{apply}}
+\index{apply@{apply}!prog::command::Save@{prog::command::Save}}
+\doxysubsubsection{\texorpdfstring{apply()}{apply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::command\+::\+Save\+::apply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Applies this command to an image.
+
+
+\begin{DoxyParams}{Parameters}
+{\em img} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the image after the command (can be the same pointer or a new one). If a new pointer is returned, the previous one is deleted. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}{prog\+::\+Command}}.
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Save_ab873c11c5fbecc263849959a5cea3ccf}\label{classprog_1_1command_1_1Save_ab873c11c5fbecc263849959a5cea3ccf}} 
+\index{prog::command::Save@{prog::command::Save}!toString@{toString}}
+\index{toString@{toString}!prog::command::Save@{prog::command::Save}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+Save\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+string representation of this command, for printing
+\end{DoxyReturn}
+Default implementation that just returns the name.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}{prog\+::\+Command}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Save_a63cda00cdae15606d3abddf056f1697f}\label{classprog_1_1command_1_1Save_a63cda00cdae15606d3abddf056f1697f}} 
+\index{prog::command::Save@{prog::command::Save}!filename@{filename}}
+\index{filename@{filename}!prog::command::Save@{prog::command::Save}}
+\doxysubsubsection{\texorpdfstring{filename}{filename}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+Save\+::filename\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Command/\mbox{\hyperlink{Save_8hpp}{Save.\+hpp}}\item 
+src/\+Command/\mbox{\hyperlink{Save_8cpp}{Save.\+cpp}}\end{DoxyCompactItemize}

@@ -1,3 +1,8 @@
+/**
+* @file Slide.hpp
+ * @brief Defines the Slide class for sliding image content.
+ */
+
 #ifndef PROJECT_SLIDE_HPP
 #define PROJECT_SLIDE_HPP
 
@@ -7,6 +12,11 @@
 namespace prog {
 
     namespace command {
+
+        /**
+         * @class Slide
+         * @brief Command to slide image content by specified offsets.
+         */
 
         class Slide : public Command {
         public:

@@ -1,0 +1,127 @@
+\hypertarget{classprog_1_1command_1_1Chain}{}\doxysection{prog\+::command\+::Chain Class Reference}
+\label{classprog_1_1command_1_1Chain}\index{prog::command::Chain@{prog::command::Chain}}
+
+
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to apply multiple commands from files sequentially.  
+
+
+
+
+{\ttfamily \#include $<$Chain.\+hpp$>$}
+
+
+
+Inheritance diagram for prog\+::command\+::Chain\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{classprog_1_1command_1_1Chain__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prog\+::command\+::Chain\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{classprog_1_1command_1_1Chain__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Chain_ab3c98d212a0ed075db44eed5e19eebcc}{Chain}} (std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classprog_1_1command_1_1Chain_aa724cd60ce246dd3153c1419a054ff42}{filepaths}})
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Chain_a5dc612eebff4dec662b5f63911b3366b}{$\sim$\+Chain}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1command_1_1Chain_ab35f6f3751a063c8819aae42316f7dfd}{apply}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img) override
+\begin{DoxyCompactList}\small\item\em Entry point for applying a \mbox{\hyperlink{classprog_1_1command_1_1Chain}{Chain}} command to an image. It creates the empty visited stack to track infinite recursion. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Chain_ad5c7fac99b96ae311d1448b3a86bc295}{to\+String}} () const override
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1command_1_1Chain_a764c630d388441fbbe0d1485032858d1}{helper}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img, std\+::vector$<$ std\+::string $>$ \&call\+Stack)
+\begin{DoxyCompactList}\small\item\em Helper function for executing a chain of \mbox{\hyperlink{classprog_1_1Scrim}{Scrim}} script files with recursion tracking. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classprog_1_1command_1_1Chain_aa724cd60ce246dd3153c1419a054ff42}{filepaths}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to apply multiple commands from files sequentially. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Chain_ab3c98d212a0ed075db44eed5e19eebcc}\label{classprog_1_1command_1_1Chain_ab3c98d212a0ed075db44eed5e19eebcc}} 
+\index{prog::command::Chain@{prog::command::Chain}!Chain@{Chain}}
+\index{Chain@{Chain}!prog::command::Chain@{prog::command::Chain}}
+\doxysubsubsection{\texorpdfstring{Chain()}{Chain()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Chain\+::\+Chain (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$}]{filepaths }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Chain_a5dc612eebff4dec662b5f63911b3366b}\label{classprog_1_1command_1_1Chain_a5dc612eebff4dec662b5f63911b3366b}} 
+\index{prog::command::Chain@{prog::command::Chain}!````~Chain@{$\sim$Chain}}
+\index{````~Chain@{$\sim$Chain}!prog::command::Chain@{prog::command::Chain}}
+\doxysubsubsection{\texorpdfstring{$\sim$Chain()}{~Chain()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Chain\+::$\sim$\+Chain (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Chain_ab35f6f3751a063c8819aae42316f7dfd}\label{classprog_1_1command_1_1Chain_ab35f6f3751a063c8819aae42316f7dfd}} 
+\index{prog::command::Chain@{prog::command::Chain}!apply@{apply}}
+\index{apply@{apply}!prog::command::Chain@{prog::command::Chain}}
+\doxysubsubsection{\texorpdfstring{apply()}{apply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::command\+::\+Chain\+::apply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Entry point for applying a \mbox{\hyperlink{classprog_1_1command_1_1Chain}{Chain}} command to an image. It creates the empty visited stack to track infinite recursion. 
+
+
+
+Implements \mbox{\hyperlink{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}{prog\+::\+Command}}.
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Chain_a764c630d388441fbbe0d1485032858d1}\label{classprog_1_1command_1_1Chain_a764c630d388441fbbe0d1485032858d1}} 
+\index{prog::command::Chain@{prog::command::Chain}!helper@{helper}}
+\index{helper@{helper}!prog::command::Chain@{prog::command::Chain}}
+\doxysubsubsection{\texorpdfstring{helper()}{helper()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::command\+::\+Chain\+::helper (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{visited }\end{DoxyParamCaption})}
+
+
+
+Helper function for executing a chain of \mbox{\hyperlink{classprog_1_1Scrim}{Scrim}} script files with recursion tracking. 
+
+This function processes a list of file paths associated with a \mbox{\hyperlink{classprog_1_1command_1_1Chain}{Chain}} command. It executes the commands within each script file in order, avoiding \char`\"{}open\char`\"{}, \char`\"{}save\char`\"{} and \char`\"{}blank\char`\"{}, recursively executing nested chain commands while avoiding infinite recursion.
+
+To detect and avoid infinite recursion, a call stack ({\ttfamily visited}) is maintained, tracking the current chain of files being processed. \mbox{\Hypertarget{classprog_1_1command_1_1Chain_ad5c7fac99b96ae311d1448b3a86bc295}\label{classprog_1_1command_1_1Chain_ad5c7fac99b96ae311d1448b3a86bc295}} 
+\index{prog::command::Chain@{prog::command::Chain}!toString@{toString}}
+\index{toString@{toString}!prog::command::Chain@{prog::command::Chain}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+Chain\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+string representation of this command, for printing
+\end{DoxyReturn}
+Default implementation that just returns the name.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}{prog\+::\+Command}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Chain_aa724cd60ce246dd3153c1419a054ff42}\label{classprog_1_1command_1_1Chain_aa724cd60ce246dd3153c1419a054ff42}} 
+\index{prog::command::Chain@{prog::command::Chain}!filepaths@{filepaths}}
+\index{filepaths@{filepaths}!prog::command::Chain@{prog::command::Chain}}
+\doxysubsubsection{\texorpdfstring{filepaths}{filepaths}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ prog\+::command\+::\+Chain\+::filepaths\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Command/\mbox{\hyperlink{Chain_8hpp}{Chain.\+hpp}}\item 
+src/\+Command/\mbox{\hyperlink{Chain_8cpp}{Chain.\+cpp}}\end{DoxyCompactItemize}

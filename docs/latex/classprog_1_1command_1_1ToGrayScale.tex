@@ -1,0 +1,99 @@
+\hypertarget{classprog_1_1command_1_1ToGrayScale}{}\doxysection{prog\+::command\+::To\+Gray\+Scale Class Reference}
+\label{classprog_1_1command_1_1ToGrayScale}\index{prog::command::ToGrayScale@{prog::command::ToGrayScale}}
+
+
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to convert an image to grayscale.  
+
+
+
+
+{\ttfamily \#include $<$To\+Gray\+Scale.\+hpp$>$}
+
+
+
+Inheritance diagram for prog\+::command\+::To\+Gray\+Scale\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=239pt]{classprog_1_1command_1_1ToGrayScale__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prog\+::command\+::To\+Gray\+Scale\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=245pt]{classprog_1_1command_1_1ToGrayScale__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1ToGrayScale_a49b9698ab39da8a632f5d17a6364bfaf}{To\+Gray\+Scale}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1ToGrayScale_a93da9742799b812346d057a06108ae01}{$\sim$\+To\+Gray\+Scale}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1command_1_1ToGrayScale_ae9455d105b8cf8299314396e1af90f96}{apply}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img) override
+\begin{DoxyCompactList}\small\item\em Converts the image to grayscale using average method. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1ToGrayScale_a6a8f9ce436f47f542e29e6364c577a89}{to\+String}} () const override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to convert an image to grayscale. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1ToGrayScale_a49b9698ab39da8a632f5d17a6364bfaf}\label{classprog_1_1command_1_1ToGrayScale_a49b9698ab39da8a632f5d17a6364bfaf}} 
+\index{prog::command::ToGrayScale@{prog::command::ToGrayScale}!ToGrayScale@{ToGrayScale}}
+\index{ToGrayScale@{ToGrayScale}!prog::command::ToGrayScale@{prog::command::ToGrayScale}}
+\doxysubsubsection{\texorpdfstring{ToGrayScale()}{ToGrayScale()}}
+{\footnotesize\ttfamily prog\+::command\+::\+To\+Gray\+Scale\+::\+To\+Gray\+Scale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1ToGrayScale_a93da9742799b812346d057a06108ae01}\label{classprog_1_1command_1_1ToGrayScale_a93da9742799b812346d057a06108ae01}} 
+\index{prog::command::ToGrayScale@{prog::command::ToGrayScale}!````~ToGrayScale@{$\sim$ToGrayScale}}
+\index{````~ToGrayScale@{$\sim$ToGrayScale}!prog::command::ToGrayScale@{prog::command::ToGrayScale}}
+\doxysubsubsection{\texorpdfstring{$\sim$ToGrayScale()}{~ToGrayScale()}}
+{\footnotesize\ttfamily prog\+::command\+::\+To\+Gray\+Scale\+::$\sim$\+To\+Gray\+Scale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1ToGrayScale_ae9455d105b8cf8299314396e1af90f96}\label{classprog_1_1command_1_1ToGrayScale_ae9455d105b8cf8299314396e1af90f96}} 
+\index{prog::command::ToGrayScale@{prog::command::ToGrayScale}!apply@{apply}}
+\index{apply@{apply}!prog::command::ToGrayScale@{prog::command::ToGrayScale}}
+\doxysubsubsection{\texorpdfstring{apply()}{apply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::command\+::\+To\+Gray\+Scale\+::apply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Converts the image to grayscale using average method. 
+
+Transforms each pixel to grayscale by calculating the average of its RGB components and setting all three channels to this average value. 
+
+Implements \mbox{\hyperlink{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}{prog\+::\+Command}}.
+
+\mbox{\Hypertarget{classprog_1_1command_1_1ToGrayScale_a6a8f9ce436f47f542e29e6364c577a89}\label{classprog_1_1command_1_1ToGrayScale_a6a8f9ce436f47f542e29e6364c577a89}} 
+\index{prog::command::ToGrayScale@{prog::command::ToGrayScale}!toString@{toString}}
+\index{toString@{toString}!prog::command::ToGrayScale@{prog::command::ToGrayScale}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+To\+Gray\+Scale\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+string representation of this command, for printing
+\end{DoxyReturn}
+Default implementation that just returns the name.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}{prog\+::\+Command}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Command/\mbox{\hyperlink{ToGrayScale_8hpp}{To\+Gray\+Scale.\+hpp}}\item 
+src/\+Command/\mbox{\hyperlink{ToGrayScale_8cpp}{To\+Gray\+Scale.\+cpp}}\end{DoxyCompactItemize}

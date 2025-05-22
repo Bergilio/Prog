@@ -33,6 +33,10 @@ namespace prog {
     rgb_value &Color::blue() {
         return b;
     }
+
+    bool Color::operator==(const Color &c) const {
+        return r == c.r && g == c.g && b == c.b;
+    }
 }
 
 

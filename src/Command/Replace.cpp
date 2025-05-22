@@ -12,15 +12,15 @@ namespace prog {
 
         Replace::~Replace() {}
 
+        /** @brief Checks if each pixel has the same color as the old color and replaces it with the new color
+        */
         Image *Replace::apply(Image *img) {
 
             for (int i = 0; i < img->height(); i++) {
                 for (int j = 0; j < img->width(); j++) {
                     Color& c = img->at(j, i);
-                    if (c.red() == oldColor.red() && c.green() == oldColor.green() && c.blue() == oldColor.blue()) {
-                        c.red() = newColor.red();
-                        c.green() = newColor.green();
-                        c.blue() = newColor.blue();
+                    if (c == oldColor) {
+                        c = newColor;
                     }
                 }
             }

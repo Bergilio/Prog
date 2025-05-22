@@ -1,0 +1,127 @@
+\hypertarget{classprog_1_1command_1_1Blank}{}\doxysection{prog\+::command\+::Blank Class Reference}
+\label{classprog_1_1command_1_1Blank}\index{prog::command::Blank@{prog::command::Blank}}
+
+
+{\ttfamily \#include $<$Blank.\+hpp$>$}
+
+
+
+Inheritance diagram for prog\+::command\+::Blank\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{classprog_1_1command_1_1Blank__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prog\+::command\+::Blank\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=264pt]{classprog_1_1command_1_1Blank__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Blank_a106acfcd56c7baba3f3be5bc0994c91e}{Blank}} (int \mbox{\hyperlink{classprog_1_1command_1_1Blank_a01da406685483e77e47662c976f99760}{w}}, int \mbox{\hyperlink{classprog_1_1command_1_1Blank_a62fce5fb668d905f15f60cff88f023df}{h}}, \mbox{\hyperlink{classprog_1_1Color}{Color}} \&\mbox{\hyperlink{classprog_1_1command_1_1Blank_a92e565b515cc419cc1ac502ae8dc1806}{fill}})
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Blank_a648fc8bc54153aafc65387c5d375b6a0}{$\sim$\+Blank}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1command_1_1Blank_addaf26cc9f17112a49557e73766be1cb}{apply}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img) override
+\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Blank_ae66a864858409c0d312b339e0313f199}{to\+String}} () const override
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classprog_1_1command_1_1Blank_a01da406685483e77e47662c976f99760}{w}}
+\item 
+int \mbox{\hyperlink{classprog_1_1command_1_1Blank_a62fce5fb668d905f15f60cff88f023df}{h}}
+\item 
+\mbox{\hyperlink{classprog_1_1Color}{Color}} \mbox{\hyperlink{classprog_1_1command_1_1Blank_a92e565b515cc419cc1ac502ae8dc1806}{fill}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Blank_a106acfcd56c7baba3f3be5bc0994c91e}\label{classprog_1_1command_1_1Blank_a106acfcd56c7baba3f3be5bc0994c91e}} 
+\index{prog::command::Blank@{prog::command::Blank}!Blank@{Blank}}
+\index{Blank@{Blank}!prog::command::Blank@{prog::command::Blank}}
+\doxysubsubsection{\texorpdfstring{Blank()}{Blank()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Blank\+::\+Blank (\begin{DoxyParamCaption}\item[{int}]{w,  }\item[{int}]{h,  }\item[{\mbox{\hyperlink{classprog_1_1Color}{Color}} \&}]{fill }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Blank_a648fc8bc54153aafc65387c5d375b6a0}\label{classprog_1_1command_1_1Blank_a648fc8bc54153aafc65387c5d375b6a0}} 
+\index{prog::command::Blank@{prog::command::Blank}!````~Blank@{$\sim$Blank}}
+\index{````~Blank@{$\sim$Blank}!prog::command::Blank@{prog::command::Blank}}
+\doxysubsubsection{\texorpdfstring{$\sim$Blank()}{~Blank()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Blank\+::$\sim$\+Blank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Blank_addaf26cc9f17112a49557e73766be1cb}\label{classprog_1_1command_1_1Blank_addaf26cc9f17112a49557e73766be1cb}} 
+\index{prog::command::Blank@{prog::command::Blank}!apply@{apply}}
+\index{apply@{apply}!prog::command::Blank@{prog::command::Blank}}
+\doxysubsubsection{\texorpdfstring{apply()}{apply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::command\+::\+Blank\+::apply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Applies this command to an image.
+
+
+\begin{DoxyParams}{Parameters}
+{\em img} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the image after the command (can be the same pointer or a new one). If a new pointer is returned, the previous one is deleted. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}{prog\+::\+Command}}.
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Blank_ae66a864858409c0d312b339e0313f199}\label{classprog_1_1command_1_1Blank_ae66a864858409c0d312b339e0313f199}} 
+\index{prog::command::Blank@{prog::command::Blank}!toString@{toString}}
+\index{toString@{toString}!prog::command::Blank@{prog::command::Blank}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+Blank\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+string representation of this command, for printing
+\end{DoxyReturn}
+Default implementation that just returns the name.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}{prog\+::\+Command}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Blank_a92e565b515cc419cc1ac502ae8dc1806}\label{classprog_1_1command_1_1Blank_a92e565b515cc419cc1ac502ae8dc1806}} 
+\index{prog::command::Blank@{prog::command::Blank}!fill@{fill}}
+\index{fill@{fill}!prog::command::Blank@{prog::command::Blank}}
+\doxysubsubsection{\texorpdfstring{fill}{fill}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Color}{Color}} prog\+::command\+::\+Blank\+::fill\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Blank_a62fce5fb668d905f15f60cff88f023df}\label{classprog_1_1command_1_1Blank_a62fce5fb668d905f15f60cff88f023df}} 
+\index{prog::command::Blank@{prog::command::Blank}!h@{h}}
+\index{h@{h}!prog::command::Blank@{prog::command::Blank}}
+\doxysubsubsection{\texorpdfstring{h}{h}}
+{\footnotesize\ttfamily int prog\+::command\+::\+Blank\+::h\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Blank_a01da406685483e77e47662c976f99760}\label{classprog_1_1command_1_1Blank_a01da406685483e77e47662c976f99760}} 
+\index{prog::command::Blank@{prog::command::Blank}!w@{w}}
+\index{w@{w}!prog::command::Blank@{prog::command::Blank}}
+\doxysubsubsection{\texorpdfstring{w}{w}}
+{\footnotesize\ttfamily int prog\+::command\+::\+Blank\+::w\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Command/\mbox{\hyperlink{Blank_8hpp}{Blank.\+hpp}}\item 
+src/\+Command/\mbox{\hyperlink{Blank_8cpp}{Blank.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,4 @@
+<map id="prog::command::ScaleUp" name="prog::command::ScaleUp">
+<area shape="rect" id="node1" title="Command to scale up an image by specified factors." alt="" coords="5,80,191,107"/>
+<area shape="rect" id="node2" href="$classprog_1_1Command.html" title=" " alt="" coords="35,5,161,32"/>
+</map>

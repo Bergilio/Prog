@@ -1,0 +1,121 @@
+\hypertarget{classprog_1_1command_1_1Replace}{}\doxysection{prog\+::command\+::Replace Class Reference}
+\label{classprog_1_1command_1_1Replace}\index{prog::command::Replace@{prog::command::Replace}}
+
+
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to replace one color with another in an image.  
+
+
+
+
+{\ttfamily \#include $<$Replace.\+hpp$>$}
+
+
+
+Inheritance diagram for prog\+::command\+::Replace\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{classprog_1_1command_1_1Replace__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prog\+::command\+::Replace\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=264pt]{classprog_1_1command_1_1Replace__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Replace_a49948326d2c60a692f3aaab5b5f2e146}{Replace}} (\mbox{\hyperlink{classprog_1_1Color}{Color}} \&\mbox{\hyperlink{classprog_1_1command_1_1Replace_a66fb5804a495ec497bcda457f09f0698}{old\+Color}}, \mbox{\hyperlink{classprog_1_1Color}{Color}} \&\mbox{\hyperlink{classprog_1_1command_1_1Replace_a82fd23b64293f26f6e12c4a414601132}{new\+Color}})
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Replace_a2b2a29478964c9e30024c97fe793c75f}{$\sim$\+Replace}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1command_1_1Replace_a570b624f38fc2acc0aa9e3601a962430}{apply}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img) override
+\begin{DoxyCompactList}\small\item\em Checks if each pixel has the same color as the old color and replaces it with the new color. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Replace_af186150b79240b18d1a306db77bea2c7}{to\+String}} () const override
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1Color}{Color}} \mbox{\hyperlink{classprog_1_1command_1_1Replace_a66fb5804a495ec497bcda457f09f0698}{old\+Color}}
+\item 
+\mbox{\hyperlink{classprog_1_1Color}{Color}} \mbox{\hyperlink{classprog_1_1command_1_1Replace_a82fd23b64293f26f6e12c4a414601132}{new\+Color}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to replace one color with another in an image. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Replace_a49948326d2c60a692f3aaab5b5f2e146}\label{classprog_1_1command_1_1Replace_a49948326d2c60a692f3aaab5b5f2e146}} 
+\index{prog::command::Replace@{prog::command::Replace}!Replace@{Replace}}
+\index{Replace@{Replace}!prog::command::Replace@{prog::command::Replace}}
+\doxysubsubsection{\texorpdfstring{Replace()}{Replace()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Replace\+::\+Replace (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Color}{Color}} \&}]{old\+Color,  }\item[{\mbox{\hyperlink{classprog_1_1Color}{Color}} \&}]{new\+Color }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Replace_a2b2a29478964c9e30024c97fe793c75f}\label{classprog_1_1command_1_1Replace_a2b2a29478964c9e30024c97fe793c75f}} 
+\index{prog::command::Replace@{prog::command::Replace}!````~Replace@{$\sim$Replace}}
+\index{````~Replace@{$\sim$Replace}!prog::command::Replace@{prog::command::Replace}}
+\doxysubsubsection{\texorpdfstring{$\sim$Replace()}{~Replace()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Replace\+::$\sim$\+Replace (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Replace_a570b624f38fc2acc0aa9e3601a962430}\label{classprog_1_1command_1_1Replace_a570b624f38fc2acc0aa9e3601a962430}} 
+\index{prog::command::Replace@{prog::command::Replace}!apply@{apply}}
+\index{apply@{apply}!prog::command::Replace@{prog::command::Replace}}
+\doxysubsubsection{\texorpdfstring{apply()}{apply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::command\+::\+Replace\+::apply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Checks if each pixel has the same color as the old color and replaces it with the new color. 
+
+
+
+Implements \mbox{\hyperlink{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}{prog\+::\+Command}}.
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Replace_af186150b79240b18d1a306db77bea2c7}\label{classprog_1_1command_1_1Replace_af186150b79240b18d1a306db77bea2c7}} 
+\index{prog::command::Replace@{prog::command::Replace}!toString@{toString}}
+\index{toString@{toString}!prog::command::Replace@{prog::command::Replace}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+Replace\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+string representation of this command, for printing
+\end{DoxyReturn}
+Default implementation that just returns the name.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}{prog\+::\+Command}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Replace_a82fd23b64293f26f6e12c4a414601132}\label{classprog_1_1command_1_1Replace_a82fd23b64293f26f6e12c4a414601132}} 
+\index{prog::command::Replace@{prog::command::Replace}!newColor@{newColor}}
+\index{newColor@{newColor}!prog::command::Replace@{prog::command::Replace}}
+\doxysubsubsection{\texorpdfstring{newColor}{newColor}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Color}{Color}} prog\+::command\+::\+Replace\+::new\+Color\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Replace_a66fb5804a495ec497bcda457f09f0698}\label{classprog_1_1command_1_1Replace_a66fb5804a495ec497bcda457f09f0698}} 
+\index{prog::command::Replace@{prog::command::Replace}!oldColor@{oldColor}}
+\index{oldColor@{oldColor}!prog::command::Replace@{prog::command::Replace}}
+\doxysubsubsection{\texorpdfstring{oldColor}{oldColor}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Color}{Color}} prog\+::command\+::\+Replace\+::old\+Color\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Command/\mbox{\hyperlink{Replace_8hpp}{Replace.\+hpp}}\item 
+src/\+Command/\mbox{\hyperlink{Replace_8cpp}{Replace.\+cpp}}\end{DoxyCompactItemize}

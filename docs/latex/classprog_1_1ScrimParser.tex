@@ -1,0 +1,81 @@
+\hypertarget{classprog_1_1ScrimParser}{}\doxysection{prog\+::Scrim\+Parser Class Reference}
+\label{classprog_1_1ScrimParser}\index{prog::ScrimParser@{prog::ScrimParser}}
+
+
+{\ttfamily \#include $<$Scrim\+Parser.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1ScrimParser_a494e141c5a8cdf7364561a665ae1495e}{Scrim\+Parser}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1ScrimParser_a3482eecd74a2a597ea23db1dbc3a77d4}{$\sim$\+Scrim\+Parser}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Scrim}{Scrim}} $\ast$ \mbox{\hyperlink{classprog_1_1ScrimParser_abc65cfbf55b47395a9900d6482af17ba}{parse\+Scrim}} (std\+::istream \&input)
+\item 
+\mbox{\hyperlink{classprog_1_1Scrim}{Scrim}} $\ast$ \mbox{\hyperlink{classprog_1_1ScrimParser_a9cfa3d872a169c2cd552c103c9779129}{parse\+Scrim}} (const std\+::string \&filename)
+\item 
+\mbox{\hyperlink{classprog_1_1Command}{Command}} $\ast$ \mbox{\hyperlink{classprog_1_1ScrimParser_ae7214ce900e9407accda5f9b614baeca}{parse\+\_\+command}} (std\+::string command\+\_\+name, std\+::istream \&istream)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1ScrimParser_a494e141c5a8cdf7364561a665ae1495e}\label{classprog_1_1ScrimParser_a494e141c5a8cdf7364561a665ae1495e}} 
+\index{prog::ScrimParser@{prog::ScrimParser}!ScrimParser@{ScrimParser}}
+\index{ScrimParser@{ScrimParser}!prog::ScrimParser@{prog::ScrimParser}}
+\doxysubsubsection{\texorpdfstring{ScrimParser()}{ScrimParser()}}
+{\footnotesize\ttfamily prog\+::\+Scrim\+Parser\+::\+Scrim\+Parser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1ScrimParser_a3482eecd74a2a597ea23db1dbc3a77d4}\label{classprog_1_1ScrimParser_a3482eecd74a2a597ea23db1dbc3a77d4}} 
+\index{prog::ScrimParser@{prog::ScrimParser}!````~ScrimParser@{$\sim$ScrimParser}}
+\index{````~ScrimParser@{$\sim$ScrimParser}!prog::ScrimParser@{prog::ScrimParser}}
+\doxysubsubsection{\texorpdfstring{$\sim$ScrimParser()}{~ScrimParser()}}
+{\footnotesize\ttfamily prog\+::\+Scrim\+Parser\+::$\sim$\+Scrim\+Parser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1ScrimParser_ae7214ce900e9407accda5f9b614baeca}\label{classprog_1_1ScrimParser_ae7214ce900e9407accda5f9b614baeca}} 
+\index{prog::ScrimParser@{prog::ScrimParser}!parse\_command@{parse\_command}}
+\index{parse\_command@{parse\_command}!prog::ScrimParser@{prog::ScrimParser}}
+\doxysubsubsection{\texorpdfstring{parse\_command()}{parse\_command()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Command}{Command}} $\ast$ prog\+::\+Scrim\+Parser\+::parse\+\_\+command (\begin{DoxyParamCaption}\item[{std\+::string}]{command\+\_\+name,  }\item[{std\+::istream \&}]{istream }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1ScrimParser_a9cfa3d872a169c2cd552c103c9779129}\label{classprog_1_1ScrimParser_a9cfa3d872a169c2cd552c103c9779129}} 
+\index{prog::ScrimParser@{prog::ScrimParser}!parseScrim@{parseScrim}}
+\index{parseScrim@{parseScrim}!prog::ScrimParser@{prog::ScrimParser}}
+\doxysubsubsection{\texorpdfstring{parseScrim()}{parseScrim()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Scrim}{Scrim}} $\ast$ prog\+::\+Scrim\+Parser\+::parse\+Scrim (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})}
+
+Helper method that accepts a file.
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a {\bfseries{new}} Image\+Pipeline built from the script defined in the given file 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classprog_1_1ScrimParser_abc65cfbf55b47395a9900d6482af17ba}\label{classprog_1_1ScrimParser_abc65cfbf55b47395a9900d6482af17ba}} 
+\index{prog::ScrimParser@{prog::ScrimParser}!parseScrim@{parseScrim}}
+\index{parseScrim@{parseScrim}!prog::ScrimParser@{prog::ScrimParser}}
+\doxysubsubsection{\texorpdfstring{parseScrim()}{parseScrim()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Scrim}{Scrim}} $\ast$ prog\+::\+Scrim\+Parser\+::parse\+Scrim (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{input }\end{DoxyParamCaption})}
+
+Base method that parses an input script, from a generic input stream.
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a {\bfseries{new}} Image\+Pipeline built from the script defined in the input stream 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{ScrimParser_8hpp}{Scrim\+Parser.\+hpp}}\item 
+src/\mbox{\hyperlink{ScrimParser_8cpp}{Scrim\+Parser.\+cpp}}\end{DoxyCompactItemize}

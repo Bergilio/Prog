@@ -1,3 +1,8 @@
+/**
+* @file VMirror.hpp
+ * @brief Defines the VMirror class for vertical mirroring of images.
+ */
+
 #ifndef PROJECT_VMIRROR_HPP
 #define PROJECT_VMIRROR_HPP
 
@@ -8,6 +13,11 @@
 namespace prog {
 
     namespace command {
+
+        /**
+         * @class VMirror
+         * @brief Command to vertically mirror an image.
+         */
 
         class VMirror : public Command {
         public:

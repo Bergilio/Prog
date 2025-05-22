@@ -1,0 +1,196 @@
+\hypertarget{classprog_1_1Image}{}\doxysection{prog\+::Image Class Reference}
+\label{classprog_1_1Image}\index{prog::Image@{prog::Image}}
+
+
+Represents a 2D image composed of colored pixels.  
+
+
+
+
+{\ttfamily \#include $<$Image.\+hpp$>$}
+
+
+
+Collaboration diagram for prog\+::Image\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=155pt]{classprog_1_1Image__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1Image_a1f043e5d410e50943fbc9fde671e3053}{Image}} (int \mbox{\hyperlink{classprog_1_1Image_acaa9181a8b9f5922f12b25f92efa29fd}{w}}, int \mbox{\hyperlink{classprog_1_1Image_a25c37ff6a3625b030a27df82271ecc8b}{h}}, const \mbox{\hyperlink{classprog_1_1Color}{Color}} \&\mbox{\hyperlink{classprog_1_1Image_a6507f50ba0e689d1ad21ef07b119a71c}{fill}}=\{255, 255, 255\})
+\begin{DoxyCompactList}\small\item\em Constructs a new \mbox{\hyperlink{classprog_1_1Image}{Image}} object with specified dimensions and fill color. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classprog_1_1Image_a6e2e5ad4aa4636606ad1f7a236835f20}{$\sim$\+Image}} ()
+\item 
+int \mbox{\hyperlink{classprog_1_1Image_a79cbc5dd032fdea2b82f568cc161914e}{width}} () const
+\begin{DoxyCompactList}\small\item\em Gets the width of the image. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classprog_1_1Image_a642bcafed6556f68769c028d445bf37c}{height}} () const
+\begin{DoxyCompactList}\small\item\em Gets the height of the image. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classprog_1_1Color}{Color}} \& \mbox{\hyperlink{classprog_1_1Image_a9742fa4fa53d96ed82113486ee03a9a1}{at}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Accesses the color at specified coordinates (non-\/const version). \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classprog_1_1Color}{Color}} \& \mbox{\hyperlink{classprog_1_1Image_a85a50b95055cf326e79dd17c23e0663b}{at}} (int x, int y) const
+\begin{DoxyCompactList}\small\item\em Accesses the color at specified coordinates (const version). \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classprog_1_1Color}{Color}} \& \mbox{\hyperlink{classprog_1_1Image_a6507f50ba0e689d1ad21ef07b119a71c}{fill}} () const
+\begin{DoxyCompactList}\small\item\em Gets the fill color of the image. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classprog_1_1Image_acaa9181a8b9f5922f12b25f92efa29fd}{w}}
+\item 
+int \mbox{\hyperlink{classprog_1_1Image_a25c37ff6a3625b030a27df82271ecc8b}{h}}
+\item 
+\mbox{\hyperlink{classprog_1_1Color}{Color}} \mbox{\hyperlink{classprog_1_1Image_ad2033091c810ee7c10084d5faa749ede}{fill\+\_\+}}
+\item 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{classprog_1_1Color}{Color}} $>$ $>$ \mbox{\hyperlink{classprog_1_1Image_ab1b3a9ed18c26a15e16c9af8d1bea333}{colors}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a 2D image composed of colored pixels. 
+
+The \mbox{\hyperlink{classprog_1_1Image}{Image}} class provides functionality to create and manipulate images with specified width and height, filled with a default or specified color. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1Image_a1f043e5d410e50943fbc9fde671e3053}\label{classprog_1_1Image_a1f043e5d410e50943fbc9fde671e3053}} 
+\index{prog::Image@{prog::Image}!Image@{Image}}
+\index{Image@{Image}!prog::Image@{prog::Image}}
+\doxysubsubsection{\texorpdfstring{Image()}{Image()}}
+{\footnotesize\ttfamily prog\+::\+Image\+::\+Image (\begin{DoxyParamCaption}\item[{int}]{w,  }\item[{int}]{h,  }\item[{const \mbox{\hyperlink{classprog_1_1Color}{Color}} \&}]{fill = {\ttfamily \{255,~255,~255\}} }\end{DoxyParamCaption})}
+
+
+
+Constructs a new \mbox{\hyperlink{classprog_1_1Image}{Image}} object with specified dimensions and fill color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em w} & Width of the image. \\
+\hline
+{\em h} & Height of the image. \\
+\hline
+{\em fill} & Fill color (default is white). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classprog_1_1Image_a6e2e5ad4aa4636606ad1f7a236835f20}\label{classprog_1_1Image_a6e2e5ad4aa4636606ad1f7a236835f20}} 
+\index{prog::Image@{prog::Image}!````~Image@{$\sim$Image}}
+\index{````~Image@{$\sim$Image}!prog::Image@{prog::Image}}
+\doxysubsubsection{\texorpdfstring{$\sim$Image()}{~Image()}}
+{\footnotesize\ttfamily prog\+::\+Image\+::$\sim$\+Image (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1Image_a9742fa4fa53d96ed82113486ee03a9a1}\label{classprog_1_1Image_a9742fa4fa53d96ed82113486ee03a9a1}} 
+\index{prog::Image@{prog::Image}!at@{at}}
+\index{at@{at}!prog::Image@{prog::Image}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Color}{Color}} \& prog\+::\+Image\+::at (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Accesses the color at specified coordinates (non-\/const version). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & X-\/coordinate (column). \\
+\hline
+{\em y} & Y-\/coordinate (row). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classprog_1_1Color}{Color}}\& Reference to the color at (x,y). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classprog_1_1Image_a85a50b95055cf326e79dd17c23e0663b}\label{classprog_1_1Image_a85a50b95055cf326e79dd17c23e0663b}} 
+\index{prog::Image@{prog::Image}!at@{at}}
+\index{at@{at}!prog::Image@{prog::Image}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classprog_1_1Color}{Color}} \& prog\+::\+Image\+::at (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption}) const}
+
+
+
+Accesses the color at specified coordinates (const version). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & X-\/coordinate (column). \\
+\hline
+{\em y} & Y-\/coordinate (row). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+const \mbox{\hyperlink{classprog_1_1Color}{Color}}\& Const reference to the color at (x,y). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classprog_1_1Image_a6507f50ba0e689d1ad21ef07b119a71c}\label{classprog_1_1Image_a6507f50ba0e689d1ad21ef07b119a71c}} 
+\index{prog::Image@{prog::Image}!fill@{fill}}
+\index{fill@{fill}!prog::Image@{prog::Image}}
+\doxysubsubsection{\texorpdfstring{fill()}{fill()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classprog_1_1Color}{Color}} \& prog\+::\+Image\+::fill (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the fill color of the image. 
+
+\begin{DoxyReturn}{Returns}
+const \mbox{\hyperlink{classprog_1_1Color}{Color}}\& The fill color. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classprog_1_1Image_a642bcafed6556f68769c028d445bf37c}\label{classprog_1_1Image_a642bcafed6556f68769c028d445bf37c}} 
+\index{prog::Image@{prog::Image}!height@{height}}
+\index{height@{height}!prog::Image@{prog::Image}}
+\doxysubsubsection{\texorpdfstring{height()}{height()}}
+{\footnotesize\ttfamily int prog\+::\+Image\+::height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the height of the image. 
+
+\begin{DoxyReturn}{Returns}
+int The height of the image. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classprog_1_1Image_a79cbc5dd032fdea2b82f568cc161914e}\label{classprog_1_1Image_a79cbc5dd032fdea2b82f568cc161914e}} 
+\index{prog::Image@{prog::Image}!width@{width}}
+\index{width@{width}!prog::Image@{prog::Image}}
+\doxysubsubsection{\texorpdfstring{width()}{width()}}
+{\footnotesize\ttfamily int prog\+::\+Image\+::width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the width of the image. 
+
+\begin{DoxyReturn}{Returns}
+int The width of the image. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classprog_1_1Image_ab1b3a9ed18c26a15e16c9af8d1bea333}\label{classprog_1_1Image_ab1b3a9ed18c26a15e16c9af8d1bea333}} 
+\index{prog::Image@{prog::Image}!colors@{colors}}
+\index{colors@{colors}!prog::Image@{prog::Image}}
+\doxysubsubsection{\texorpdfstring{colors}{colors}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::vector$<$\mbox{\hyperlink{classprog_1_1Color}{Color}}$>$ $>$ prog\+::\+Image\+::colors\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1Image_ad2033091c810ee7c10084d5faa749ede}\label{classprog_1_1Image_ad2033091c810ee7c10084d5faa749ede}} 
+\index{prog::Image@{prog::Image}!fill\_@{fill\_}}
+\index{fill\_@{fill\_}!prog::Image@{prog::Image}}
+\doxysubsubsection{\texorpdfstring{fill\_}{fill\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Color}{Color}} prog\+::\+Image\+::fill\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1Image_a25c37ff6a3625b030a27df82271ecc8b}\label{classprog_1_1Image_a25c37ff6a3625b030a27df82271ecc8b}} 
+\index{prog::Image@{prog::Image}!h@{h}}
+\index{h@{h}!prog::Image@{prog::Image}}
+\doxysubsubsection{\texorpdfstring{h}{h}}
+{\footnotesize\ttfamily int prog\+::\+Image\+::h\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1Image_acaa9181a8b9f5922f12b25f92efa29fd}\label{classprog_1_1Image_acaa9181a8b9f5922f12b25f92efa29fd}} 
+\index{prog::Image@{prog::Image}!w@{w}}
+\index{w@{w}!prog::Image@{prog::Image}}
+\doxysubsubsection{\texorpdfstring{w}{w}}
+{\footnotesize\ttfamily int prog\+::\+Image\+::w\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{Image_8hpp}{Image.\+hpp}}\item 
+src/\mbox{\hyperlink{Image_8cpp}{Image.\+cpp}}\end{DoxyCompactItemize}

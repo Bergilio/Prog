@@ -15,6 +15,9 @@ namespace prog {
 
         Image *Invert::apply(Image *img) {
 
+            /**
+            * @brief Performs per-pixel color inversion by subtracting each RGB component from 255.
+            */
             for (int i = 0; i < img->height(); i++) {
                 for (int j = 0; j < img->width(); j++) {
                     Color& c = img->at(j, i);

@@ -1,0 +1,105 @@
+\hypertarget{classprog_1_1command_1_1Invert}{}\doxysection{prog\+::command\+::Invert Class Reference}
+\label{classprog_1_1command_1_1Invert}\index{prog::command::Invert@{prog::command::Invert}}
+
+
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to invert the colors of an image.  
+
+
+
+
+{\ttfamily \#include $<$Invert.\+hpp$>$}
+
+
+
+Inheritance diagram for prog\+::command\+::Invert\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{classprog_1_1command_1_1Invert__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prog\+::command\+::Invert\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{classprog_1_1command_1_1Invert__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Invert_a8623a046777abf9cca200734115741df}{Invert}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Invert_a9a1a10b443417b79d8f279648df7718f}{$\sim$\+Invert}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1command_1_1Invert_ad1b9762c2edeeca8a8ed72e5cd2d65d4}{apply}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img) override
+\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Invert_a1f186dfe66f686dcd5f159b8e2a6c23d}{to\+String}} () const override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to invert the colors of an image. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Invert_a8623a046777abf9cca200734115741df}\label{classprog_1_1command_1_1Invert_a8623a046777abf9cca200734115741df}} 
+\index{prog::command::Invert@{prog::command::Invert}!Invert@{Invert}}
+\index{Invert@{Invert}!prog::command::Invert@{prog::command::Invert}}
+\doxysubsubsection{\texorpdfstring{Invert()}{Invert()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Invert\+::\+Invert (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Invert_a9a1a10b443417b79d8f279648df7718f}\label{classprog_1_1command_1_1Invert_a9a1a10b443417b79d8f279648df7718f}} 
+\index{prog::command::Invert@{prog::command::Invert}!````~Invert@{$\sim$Invert}}
+\index{````~Invert@{$\sim$Invert}!prog::command::Invert@{prog::command::Invert}}
+\doxysubsubsection{\texorpdfstring{$\sim$Invert()}{~Invert()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Invert\+::$\sim$\+Invert (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Invert_ad1b9762c2edeeca8a8ed72e5cd2d65d4}\label{classprog_1_1command_1_1Invert_ad1b9762c2edeeca8a8ed72e5cd2d65d4}} 
+\index{prog::command::Invert@{prog::command::Invert}!apply@{apply}}
+\index{apply@{apply}!prog::command::Invert@{prog::command::Invert}}
+\doxysubsubsection{\texorpdfstring{apply()}{apply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::command\+::\+Invert\+::apply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Applies this command to an image.
+
+
+\begin{DoxyParams}{Parameters}
+{\em img} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the image after the command (can be the same pointer or a new one). If a new pointer is returned, the previous one is deleted. 
+\end{DoxyReturn}
+Performs per-\/pixel color inversion by subtracting each RGB component from 255.
+
+Implements \mbox{\hyperlink{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}{prog\+::\+Command}}.
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Invert_a1f186dfe66f686dcd5f159b8e2a6c23d}\label{classprog_1_1command_1_1Invert_a1f186dfe66f686dcd5f159b8e2a6c23d}} 
+\index{prog::command::Invert@{prog::command::Invert}!toString@{toString}}
+\index{toString@{toString}!prog::command::Invert@{prog::command::Invert}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+Invert\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+string representation of this command, for printing
+\end{DoxyReturn}
+Default implementation that just returns the name.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}{prog\+::\+Command}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Command/\mbox{\hyperlink{Invert_8hpp}{Invert.\+hpp}}\item 
+src/\+Command/\mbox{\hyperlink{Invert_8cpp}{Invert.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,119 @@
+\hypertarget{classprog_1_1Command}{}\doxysection{prog\+::Command Class Reference}
+\label{classprog_1_1Command}\index{prog::Command@{prog::Command}}
+
+
+{\ttfamily \#include $<$Command.\+hpp$>$}
+
+
+
+Inheritance diagram for prog\+::Command\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classprog_1_1Command__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prog\+::Command\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=213pt]{classprog_1_1Command__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1Command_ab149bc0be686927cb30254c7ef75662a}{Command}} (std\+::string \mbox{\hyperlink{classprog_1_1Command_a1f4eedad12a3d1e915962ae848c4a0f4}{command\+\_\+name}})
+\item 
+virtual \mbox{\hyperlink{classprog_1_1Command_a9dbacc257415a0f5a44ab34fd00c2b45}{$\sim$\+Command}} ()=0
+\item 
+virtual \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}{apply}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img)=0
+\item 
+virtual std\+::string \mbox{\hyperlink{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}{to\+String}} () const
+\item 
+std\+::string \mbox{\hyperlink{classprog_1_1Command_a02ebfd516ed0fd855996bcc5de0eada8}{name}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classprog_1_1Command_a1f4eedad12a3d1e915962ae848c4a0f4}{command\+\_\+name}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1Command_ab149bc0be686927cb30254c7ef75662a}\label{classprog_1_1Command_ab149bc0be686927cb30254c7ef75662a}} 
+\index{prog::Command@{prog::Command}!Command@{Command}}
+\index{Command@{Command}!prog::Command@{prog::Command}}
+\doxysubsubsection{\texorpdfstring{Command()}{Command()}}
+{\footnotesize\ttfamily prog\+::\+Command\+::\+Command (\begin{DoxyParamCaption}\item[{std\+::string}]{command\+\_\+name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1Command_a9dbacc257415a0f5a44ab34fd00c2b45}\label{classprog_1_1Command_a9dbacc257415a0f5a44ab34fd00c2b45}} 
+\index{prog::Command@{prog::Command}!````~Command@{$\sim$Command}}
+\index{````~Command@{$\sim$Command}!prog::Command@{prog::Command}}
+\doxysubsubsection{\texorpdfstring{$\sim$Command()}{~Command()}}
+{\footnotesize\ttfamily prog\+::\+Command\+::$\sim$\+Command (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}\label{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}} 
+\index{prog::Command@{prog::Command}!apply@{apply}}
+\index{apply@{apply}!prog::Command@{prog::Command}}
+\doxysubsubsection{\texorpdfstring{apply()}{apply()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{classprog_1_1Image}{Image}}$\ast$ prog\+::\+Command\+::apply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Applies this command to an image.
+
+
+\begin{DoxyParams}{Parameters}
+{\em img} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the image after the command (can be the same pointer or a new one). If a new pointer is returned, the previous one is deleted. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classprog_1_1command_1_1VMirror_ad41185ef31aa23f725575ae1a98a6f13}{prog\+::command\+::\+VMirror}}, \mbox{\hyperlink{classprog_1_1command_1_1ToGrayScale_ae9455d105b8cf8299314396e1af90f96}{prog\+::command\+::\+To\+Gray\+Scale}}, \mbox{\hyperlink{classprog_1_1command_1_1Slide_a6681c217a1dbe289057cb96bdf2a0145}{prog\+::command\+::\+Slide}}, \mbox{\hyperlink{classprog_1_1command_1_1ScaleUp_a6372c08c352da862d9ff7036313c8c80}{prog\+::command\+::\+Scale\+Up}}, \mbox{\hyperlink{classprog_1_1command_1_1Save_ab15a57224250e3f000d18311ca00f433}{prog\+::command\+::\+Save}}, \mbox{\hyperlink{classprog_1_1command_1_1RotateRight_a28a3f55bf9e0124dd0a1a66e72cc4794}{prog\+::command\+::\+Rotate\+Right}}, \mbox{\hyperlink{classprog_1_1command_1_1RotateLeft_aeb31a8064219e291d7eeae3b31001a50}{prog\+::command\+::\+Rotate\+Left}}, \mbox{\hyperlink{classprog_1_1command_1_1Resize_a60e220dca473d9d96e14ba3af4f241eb}{prog\+::command\+::\+Resize}}, \mbox{\hyperlink{classprog_1_1command_1_1Replace_a570b624f38fc2acc0aa9e3601a962430}{prog\+::command\+::\+Replace}}, \mbox{\hyperlink{classprog_1_1command_1_1Open_aa9b5d7995f3259a23b2302ba4ea72fa4}{prog\+::command\+::\+Open}}, \mbox{\hyperlink{classprog_1_1command_1_1Move_a9046fbb8f46d7bd3afc4fcf5af4465e0}{prog\+::command\+::\+Move}}, \mbox{\hyperlink{classprog_1_1command_1_1Invert_ad1b9762c2edeeca8a8ed72e5cd2d65d4}{prog\+::command\+::\+Invert}}, \mbox{\hyperlink{classprog_1_1command_1_1HMirror_a6dc5b5c20ba5480331d4c1dcb397aeba}{prog\+::command\+::\+HMirror}}, \mbox{\hyperlink{classprog_1_1command_1_1Fill_aaa319754777fb06a7304a51fd0dbf059}{prog\+::command\+::\+Fill}}, \mbox{\hyperlink{classprog_1_1command_1_1Crop_acbd1ef24e087b90ab8b01abc50df3859}{prog\+::command\+::\+Crop}}, \mbox{\hyperlink{classprog_1_1command_1_1Chain_ab35f6f3751a063c8819aae42316f7dfd}{prog\+::command\+::\+Chain}}, \mbox{\hyperlink{classprog_1_1command_1_1Blank_addaf26cc9f17112a49557e73766be1cb}{prog\+::command\+::\+Blank}}, and \mbox{\hyperlink{classprog_1_1command_1_1Add_afb57576c6029cda79d6ed9f8a6d3f3c7}{prog\+::command\+::\+Add}}.
+
+\mbox{\Hypertarget{classprog_1_1Command_a02ebfd516ed0fd855996bcc5de0eada8}\label{classprog_1_1Command_a02ebfd516ed0fd855996bcc5de0eada8}} 
+\index{prog::Command@{prog::Command}!name@{name}}
+\index{name@{name}!prog::Command@{prog::Command}}
+\doxysubsubsection{\texorpdfstring{name()}{name()}}
+{\footnotesize\ttfamily std\+::string prog\+::\+Command\+::name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}\label{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}} 
+\index{prog::Command@{prog::Command}!toString@{toString}}
+\index{toString@{toString}!prog::Command@{prog::Command}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string prog\+::\+Command\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+string representation of this command, for printing
+\end{DoxyReturn}
+Default implementation that just returns the name.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classprog_1_1command_1_1VMirror_ab7bafceefade0a44c6795288ca4bd6b8}{prog\+::command\+::\+VMirror}}, \mbox{\hyperlink{classprog_1_1command_1_1ToGrayScale_a6a8f9ce436f47f542e29e6364c577a89}{prog\+::command\+::\+To\+Gray\+Scale}}, \mbox{\hyperlink{classprog_1_1command_1_1Slide_a873d2dfbc8e3cce3bed276f33caa4ea5}{prog\+::command\+::\+Slide}}, \mbox{\hyperlink{classprog_1_1command_1_1ScaleUp_a5caa7f154b65213deb7e5c136230cd10}{prog\+::command\+::\+Scale\+Up}}, \mbox{\hyperlink{classprog_1_1command_1_1Save_ab873c11c5fbecc263849959a5cea3ccf}{prog\+::command\+::\+Save}}, \mbox{\hyperlink{classprog_1_1command_1_1RotateRight_ad42dbb1c2ef654a505a8a7827fa5bbe7}{prog\+::command\+::\+Rotate\+Right}}, \mbox{\hyperlink{classprog_1_1command_1_1RotateLeft_adb8f43737422060fd31670abe0e2f062}{prog\+::command\+::\+Rotate\+Left}}, \mbox{\hyperlink{classprog_1_1command_1_1Resize_a8d1d6a95fcbf2abba4ddd7fa0b4ee3ce}{prog\+::command\+::\+Resize}}, \mbox{\hyperlink{classprog_1_1command_1_1Replace_af186150b79240b18d1a306db77bea2c7}{prog\+::command\+::\+Replace}}, \mbox{\hyperlink{classprog_1_1command_1_1Open_a5911cd3a9c156503988c9a4178a533e7}{prog\+::command\+::\+Open}}, \mbox{\hyperlink{classprog_1_1command_1_1Move_abda0e66205148f0f40a223124a73014d}{prog\+::command\+::\+Move}}, \mbox{\hyperlink{classprog_1_1command_1_1Invert_a1f186dfe66f686dcd5f159b8e2a6c23d}{prog\+::command\+::\+Invert}}, \mbox{\hyperlink{classprog_1_1command_1_1HMirror_a139880fbb277ed0a5abf1240b9fd5420}{prog\+::command\+::\+HMirror}}, \mbox{\hyperlink{classprog_1_1command_1_1Fill_aaa2a792b69b214e4836c52f1c6c986c3}{prog\+::command\+::\+Fill}}, \mbox{\hyperlink{classprog_1_1command_1_1Crop_a1a5e786e55e2a066cd83c192b87f0c52}{prog\+::command\+::\+Crop}}, \mbox{\hyperlink{classprog_1_1command_1_1Chain_ad5c7fac99b96ae311d1448b3a86bc295}{prog\+::command\+::\+Chain}}, \mbox{\hyperlink{classprog_1_1command_1_1Blank_ae66a864858409c0d312b339e0313f199}{prog\+::command\+::\+Blank}}, and \mbox{\hyperlink{classprog_1_1command_1_1Add_a705b0396d27a8af79695433f80230102}{prog\+::command\+::\+Add}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classprog_1_1Command_a1f4eedad12a3d1e915962ae848c4a0f4}\label{classprog_1_1Command_a1f4eedad12a3d1e915962ae848c4a0f4}} 
+\index{prog::Command@{prog::Command}!command\_name@{command\_name}}
+\index{command\_name@{command\_name}!prog::Command@{prog::Command}}
+\doxysubsubsection{\texorpdfstring{command\_name}{command\_name}}
+{\footnotesize\ttfamily std\+::string prog\+::\+Command\+::command\+\_\+name\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{Command_8hpp}{Command.\+hpp}}\item 
+src/\mbox{\hyperlink{Command_8cpp}{Command.\+cpp}}\end{DoxyCompactItemize}

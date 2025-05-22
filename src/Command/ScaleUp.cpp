@@ -12,24 +12,30 @@ namespace prog {
 
         ScaleUp::~ScaleUp() {}
 
-        Image *ScaleUp::apply(Image *img) {
-            std::vector<std::vector<Color>> newColors(img->height() * y, std::vector<Color>(img->width() * x));
+            /**
+            * @brief Scales up the image by specified horizontal and vertical factors
+            *
+            * Creates a new image with dimensions (width*x, height*y) where each original pixel
+            * is replicated into a x*y block in the output image. The scaling is performed using
+            * two nested loops that will fill each block with the same pixel (j, i)
+            */
+            Image *ScaleUp::apply(Image *img) {
 
-            for (int i = 0; i < img->height(); i++) {
-                for (int j = 0; j < img->width(); j++) {
-                    for (int dy = 0; dy < y; dy++) {
-                        for (int dx = 0; dx < x; dx++) {
-                            newColors[i * y + dy][j * x + dx] = img->at(j, i);
+                Image *newImg = new Image(img->width() * x, img->height() * y);
+
+                for (int i = 0; i < img->height(); i++) {
+                    for (int j = 0; j < img->width(); j++) {
+                        for (int dy = 0; dy < y; dy++) {
+                            for (int dx = 0; dx < x; dx++) {
+                                newImg->at(j * x + dx, i * y + dy) = img->at(j, i);
+                            }
                         }
                     }
                 }
-            }
 
-            img->width() = img->width() * x;
-            img->height() = img->height() * y;
-            img->getColors() = newColors;
-            return img;
-        }
+                delete img;
+                return newImg;
+            }
 
         std::string ScaleUp::toString() const {
             std::ostringstream ss;

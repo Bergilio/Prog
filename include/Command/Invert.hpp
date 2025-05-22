@@ -1,3 +1,8 @@
+/**
+ * @file Invert.hpp
+* @brief Defines the Invert class for inverting image colors.
+*/
+
 #ifndef PROJECT_INVERT_HPP
 #define PROJECT_INVERT_HPP
 
@@ -7,6 +12,11 @@
 namespace prog {
 
     namespace command {
+
+        /**
+         * @class Invert
+         * @brief Command to invert the colors of an image.
+         */
 
         class Invert : public Command {
         public:

@@ -12,18 +12,21 @@ namespace prog {
 
         Crop::~Crop() {}
 
+        /**
+         * @brief Creates new image with desired dimension and copys all the pixels inside the rectangle
+         * of the original image with top-left corner (x, y)
+         */
         Image *Crop::apply(Image *img) {
-            std::vector<std::vector<Color>> newColors(h, std::vector<Color>(w));
+            Image *newImg = new Image(w, h);
 
             for (int i = 0; i < h; i++) {
                 for (int j = 0; j < w; j++) {
-                    newColors[i][j] = img->at(j+x, i+y);
+                    newImg->at(j, i) = img->at(j+x, i+y);
                 }
             }
-            img->getColors() = newColors;
-            img->width() = w;
-            img->height() = h;
-            return img;
+
+            delete img;
+            return newImg;
         }
 
         std::string Crop::toString() const {

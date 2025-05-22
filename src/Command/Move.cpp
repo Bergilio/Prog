@@ -12,17 +12,23 @@ namespace prog {
 
         Move::~Move() {}
 
+        /** @brief Creates a new image of the same dimensions as the original, then copies pixels
+        * from the source image starting at the specified offset. Areas that would be
+        * outside the image bounds after the move are filled with the image's default color.
+        */
+
         Image *Move::apply(Image *img) {
-            std::vector<std::vector<Color>> newColors(img->height(), std::vector<Color>(img->width(), img->fill()));
+
+            Image *newImg = new Image(img->width(), img->height(), img->fill());
 
             for (int i = 0; i < img->height() - y; i++) {
                 for (int j = 0; j < img->width() - x; j++) {
-                    newColors[i+y][j+x] = img->at(j, i);
+                    newImg->at(j+x, i+y) = img->at(j, i);
                 }
             }
 
-            img->getColors() = newColors;
-            return img;
+            delete img;
+            return newImg;
         }
 
         std::string Move::toString() const {

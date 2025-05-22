@@ -1,0 +1,6 @@
+<map id="prog::command::Add" name="prog::command::Add">
+<area shape="rect" id="node1" title="Command to copy all pixels from an image stored in PNG file filename, except pixels in that image wit..." alt="" coords="84,184,241,211"/>
+<area shape="rect" id="node2" href="$classprog_1_1Command.html" title=" " alt="" coords="99,95,226,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,5,64,32"/>
+<area shape="rect" id="node4" href="$classprog_1_1Color.html" title="Represents a color in RGB format." alt="" coords="251,95,344,121"/>
+</map>

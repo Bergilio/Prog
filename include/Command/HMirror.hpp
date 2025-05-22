@@ -1,3 +1,8 @@
+/**
+* @file HMirror.hpp
+ * @brief Defines the HMirror class for horizontal mirroring of images.
+ */
+
 #ifndef PROJECT_HMIRROR_HPP
 #define PROJECT_HMIRROR_HPP
 
@@ -8,6 +13,11 @@
 namespace prog {
 
     namespace command {
+
+        /**
+         * @class HMirror
+         * @brief Command to horizontally mirror an image.
+         */
 
         class HMirror : public Command {
         public:

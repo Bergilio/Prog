@@ -1,0 +1,5 @@
+<map id="prog::command::ToGrayScale" name="prog::command::ToGrayScale">
+<area shape="rect" id="node1" title="Command to convert an image to grayscale." alt="" coords="5,171,217,197"/>
+<area shape="rect" id="node2" href="$classprog_1_1Command.html" title=" " alt="" coords="48,95,175,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="82,5,141,32"/>
+</map>

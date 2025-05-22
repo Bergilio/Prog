@@ -1,0 +1,137 @@
+\hypertarget{classprog_1_1command_1_1Add}{}\doxysection{prog\+::command\+::Add Class Reference}
+\label{classprog_1_1command_1_1Add}\index{prog::command::Add@{prog::command::Add}}
+
+
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to copy all pixels from an image stored in PNG file filename, except pixels in that image with “neutral” color (r,g,b), to the rectangle of the current image with top-\/left corner (x,y) of the current image.  
+
+
+
+
+{\ttfamily \#include $<$Add.\+hpp$>$}
+
+
+
+Inheritance diagram for prog\+::command\+::Add\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=198pt]{classprog_1_1command_1_1Add__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prog\+::command\+::Add\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{classprog_1_1command_1_1Add__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Add_a5d9f3133dc9275a98e56c762ffbc1b82}{Add}} (std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Add_a09f611b6bca3e848459cf911b08cb1cc}{filename}}, \mbox{\hyperlink{classprog_1_1Color}{Color}} \&\mbox{\hyperlink{classprog_1_1command_1_1Add_a05e3f70aa2bc9dff60ad0c95cb81e8fb}{neutral}}, int \mbox{\hyperlink{classprog_1_1command_1_1Add_ae48b146aa388093876a2ff2071524973}{x}}, int \mbox{\hyperlink{classprog_1_1command_1_1Add_a481615d96b3abc80559231b3a10a5652}{y}})
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Add_a4210cdb0ce8bc608c96d10b8a927445e}{$\sim$\+Add}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1command_1_1Add_afb57576c6029cda79d6ed9f8a6d3f3c7}{apply}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img) override
+\begin{DoxyCompactList}\small\item\em Loads image from input file and copys each pixel that is not equal to the neutral color, inside the rectangle of the mage starting at (x, y) \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Add_a705b0396d27a8af79695433f80230102}{to\+String}} () const override
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Add_a09f611b6bca3e848459cf911b08cb1cc}{filename}}
+\item 
+\mbox{\hyperlink{classprog_1_1Color}{Color}} \mbox{\hyperlink{classprog_1_1command_1_1Add_a05e3f70aa2bc9dff60ad0c95cb81e8fb}{neutral}}
+\item 
+int \mbox{\hyperlink{classprog_1_1command_1_1Add_ae48b146aa388093876a2ff2071524973}{x}}
+\item 
+int \mbox{\hyperlink{classprog_1_1command_1_1Add_a481615d96b3abc80559231b3a10a5652}{y}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to copy all pixels from an image stored in PNG file filename, except pixels in that image with “neutral” color (r,g,b), to the rectangle of the current image with top-\/left corner (x,y) of the current image. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Add_a5d9f3133dc9275a98e56c762ffbc1b82}\label{classprog_1_1command_1_1Add_a5d9f3133dc9275a98e56c762ffbc1b82}} 
+\index{prog::command::Add@{prog::command::Add}!Add@{Add}}
+\index{Add@{Add}!prog::command::Add@{prog::command::Add}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Add\+::\+Add (\begin{DoxyParamCaption}\item[{std\+::string}]{filename,  }\item[{\mbox{\hyperlink{classprog_1_1Color}{Color}} \&}]{neutral,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Add_a4210cdb0ce8bc608c96d10b8a927445e}\label{classprog_1_1command_1_1Add_a4210cdb0ce8bc608c96d10b8a927445e}} 
+\index{prog::command::Add@{prog::command::Add}!````~Add@{$\sim$Add}}
+\index{````~Add@{$\sim$Add}!prog::command::Add@{prog::command::Add}}
+\doxysubsubsection{\texorpdfstring{$\sim$Add()}{~Add()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Add\+::$\sim$\+Add (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Add_afb57576c6029cda79d6ed9f8a6d3f3c7}\label{classprog_1_1command_1_1Add_afb57576c6029cda79d6ed9f8a6d3f3c7}} 
+\index{prog::command::Add@{prog::command::Add}!apply@{apply}}
+\index{apply@{apply}!prog::command::Add@{prog::command::Add}}
+\doxysubsubsection{\texorpdfstring{apply()}{apply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::command\+::\+Add\+::apply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Loads image from input file and copys each pixel that is not equal to the neutral color, inside the rectangle of the mage starting at (x, y) 
+
+
+
+Implements \mbox{\hyperlink{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}{prog\+::\+Command}}.
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Add_a705b0396d27a8af79695433f80230102}\label{classprog_1_1command_1_1Add_a705b0396d27a8af79695433f80230102}} 
+\index{prog::command::Add@{prog::command::Add}!toString@{toString}}
+\index{toString@{toString}!prog::command::Add@{prog::command::Add}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+Add\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+string representation of this command, for printing
+\end{DoxyReturn}
+Default implementation that just returns the name.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}{prog\+::\+Command}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Add_a09f611b6bca3e848459cf911b08cb1cc}\label{classprog_1_1command_1_1Add_a09f611b6bca3e848459cf911b08cb1cc}} 
+\index{prog::command::Add@{prog::command::Add}!filename@{filename}}
+\index{filename@{filename}!prog::command::Add@{prog::command::Add}}
+\doxysubsubsection{\texorpdfstring{filename}{filename}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+Add\+::filename\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Add_a05e3f70aa2bc9dff60ad0c95cb81e8fb}\label{classprog_1_1command_1_1Add_a05e3f70aa2bc9dff60ad0c95cb81e8fb}} 
+\index{prog::command::Add@{prog::command::Add}!neutral@{neutral}}
+\index{neutral@{neutral}!prog::command::Add@{prog::command::Add}}
+\doxysubsubsection{\texorpdfstring{neutral}{neutral}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Color}{Color}} prog\+::command\+::\+Add\+::neutral\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Add_ae48b146aa388093876a2ff2071524973}\label{classprog_1_1command_1_1Add_ae48b146aa388093876a2ff2071524973}} 
+\index{prog::command::Add@{prog::command::Add}!x@{x}}
+\index{x@{x}!prog::command::Add@{prog::command::Add}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily int prog\+::command\+::\+Add\+::x\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Add_a481615d96b3abc80559231b3a10a5652}\label{classprog_1_1command_1_1Add_a481615d96b3abc80559231b3a10a5652}} 
+\index{prog::command::Add@{prog::command::Add}!y@{y}}
+\index{y@{y}!prog::command::Add@{prog::command::Add}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily int prog\+::command\+::\+Add\+::y\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Command/\mbox{\hyperlink{Add_8hpp}{Add.\+hpp}}\item 
+src/\+Command/\mbox{\hyperlink{Add_8cpp}{Add.\+cpp}}\end{DoxyCompactItemize}

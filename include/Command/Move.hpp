@@ -1,3 +1,8 @@
+/**
+* @file Move.hpp
+ * @brief Defines the Move class for moving image content.
+ */
+
 #ifndef PROJECT_MOVE_HPP
 #define PROJECT_MOVE_HPP
 
@@ -7,6 +12,11 @@
 namespace prog {
 
     namespace command {
+
+        /**
+         * @class Move
+         * @brief Command to move image content by specified offsets.
+         */
 
         class Move : public Command {
         public:

@@ -1,0 +1,4 @@
+<map id="prog::command::Invert" name="prog::command::Invert">
+<area shape="rect" id="node1" title="Command to invert the colors of an image." alt="" coords="5,80,176,107"/>
+<area shape="rect" id="node2" href="$classprog_1_1Command.html" title=" " alt="" coords="27,5,154,32"/>
+</map>

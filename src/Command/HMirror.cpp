@@ -14,6 +14,10 @@ namespace prog {
 
         Image* HMirror::apply(Image* img) {
 
+            /**
+          * @brief Swaps pixels from left and right halves of the image, creating a mirror
+          * effect along the vertical center line. This is done by swapping the pixls in each extreme of the image.
+          */
             for (int i = 0; i < img->height(); i++) {
                 for (int j = 0; j < img->width() / 2; j++) {
                     Color c1 = img->at(j, i);

@@ -1,0 +1,21 @@
+<map id="prog::Command" name="prog::Command">
+<area shape="rect" id="node1" title=" " alt="" coords="5,436,132,463"/>
+<area shape="rect" id="node2" href="$classprog_1_1command_1_1Add.html" title="Command to copy all pixels from an image stored in PNG file filename, except pixels in that image wit..." alt="" coords="207,5,365,32"/>
+<area shape="rect" id="node3" href="$classprog_1_1command_1_1Blank.html" title=" " alt="" coords="201,56,371,83"/>
+<area shape="rect" id="node4" href="$classprog_1_1command_1_1Chain.html" title="Command to apply multiple commands from files sequentially." alt="" coords="201,107,371,133"/>
+<area shape="rect" id="node5" href="$classprog_1_1command_1_1Crop.html" title="Command to crop an image to specified dimensions." alt="" coords="205,157,367,184"/>
+<area shape="rect" id="node6" href="$classprog_1_1command_1_1Fill.html" title="Command to fill a rectangular area with a specified color." alt="" coords="211,208,361,235"/>
+<area shape="rect" id="node7" href="$classprog_1_1command_1_1HMirror.html" title="Command to horizontally mirror an image." alt="" coords="195,259,377,285"/>
+<area shape="rect" id="node8" href="$classprog_1_1command_1_1Invert.html" title="Command to invert the colors of an image." alt="" coords="201,309,371,336"/>
+<area shape="rect" id="node9" href="$classprog_1_1command_1_1Move.html" title="Command to move image content by specified offsets." alt="" coords="202,360,370,387"/>
+<area shape="rect" id="node10" href="$classprog_1_1command_1_1Open.html" title=" " alt="" coords="203,411,369,437"/>
+<area shape="rect" id="node11" href="$classprog_1_1command_1_1Replace.html" title="Command to replace one color with another in an image." alt="" coords="194,461,378,488"/>
+<area shape="rect" id="node12" href="$classprog_1_1command_1_1Resize.html" title="Command to resize an image to specified dimensions at a given position." alt="" coords="199,512,373,539"/>
+<area shape="rect" id="node13" href="$classprog_1_1command_1_1RotateLeft.html" title="Command to rotate an image 90 degrees to the left." alt="" coords="187,563,385,589"/>
+<area shape="rect" id="node14" href="$classprog_1_1command_1_1RotateRight.html" title="Command to rotate an image 90 degrees to the right." alt="" coords="181,613,391,640"/>
+<area shape="rect" id="node15" href="$classprog_1_1command_1_1Save.html" title=" " alt="" coords="204,664,368,691"/>
+<area shape="rect" id="node16" href="$classprog_1_1command_1_1ScaleUp.html" title="Command to scale up an image by specified factors." alt="" coords="193,715,379,741"/>
+<area shape="rect" id="node17" href="$classprog_1_1command_1_1Slide.html" title="Command to slide image content by specified offsets." alt="" coords="204,765,368,792"/>
+<area shape="rect" id="node18" href="$classprog_1_1command_1_1ToGrayScale.html" title="Command to convert an image to grayscale." alt="" coords="180,816,392,843"/>
+<area shape="rect" id="node19" href="$classprog_1_1command_1_1VMirror.html" title="Command to vertically mirror an image." alt="" coords="196,867,376,893"/>
+</map>

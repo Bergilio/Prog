@@ -1,0 +1,128 @@
+\hypertarget{namespaceprog}{}\doxysection{prog Namespace Reference}
+\label{namespaceprog}\index{prog@{prog}}
+\doxysubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceprog_1_1command}{command}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classprog_1_1Color}{Color}}
+\begin{DoxyCompactList}\small\item\em Represents a color in RGB format. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classprog_1_1Command}{Command}}
+\item 
+class \mbox{\hyperlink{classprog_1_1Image}{Image}}
+\begin{DoxyCompactList}\small\item\em Represents a 2D image composed of colored pixels. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classprog_1_1Logger}{Logger}}
+\item 
+class \mbox{\hyperlink{classprog_1_1Scrim}{Scrim}}
+\item 
+class \mbox{\hyperlink{classprog_1_1ScrimParser}{Scrim\+Parser}}
+\item 
+class \mbox{\hyperlink{classprog_1_1TestDriver}{Test\+Driver}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef unsigned char \mbox{\hyperlink{namespaceprog_a69f3b1b3ff9559df18656ff40fb0c682}{rgb\+\_\+value}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{namespaceprog_a8d90d303320d4ca0d8bee90a64b0125b}{load\+From\+PNG}} (const std\+::string \&file)
+\item 
+void \mbox{\hyperlink{namespaceprog_afbad3026b3045cffa26faa15e872e046}{save\+To\+PNG}} (const std\+::string \&file, const \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img)
+\item 
+bool \mbox{\hyperlink{namespaceprog_a16be7ab5d187e40543888b6b789c9d75}{compare\+PNG}} (const std\+::string \&file1, const std\+::string \&file2)
+\item 
+bool \mbox{\hyperlink{namespaceprog_af33004ae75baa5023a6b5964a1ea2824}{mkdir}} (const std\+::string \&string)
+\item 
+bool \mbox{\hyperlink{namespaceprog_a6f61b27e03ed02fdc7fe477a1c1ca961}{delete\+\_\+files}} (const std\+::string \&string)
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{namespaceprog_aa01999e5ab514887725f167a558efa26}{load\+From\+PNG}} (const string \&file)
+\item 
+void \mbox{\hyperlink{namespaceprog_adc05b9fe456e3e2b834ec01b85970de0}{save\+To\+PNG}} (const string \&file, const \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$image)
+\item 
+bool \mbox{\hyperlink{namespaceprog_ae31b266d843b5804f95a996caf27c8f0}{compare\+PNG}} (const string \&file1, const string \&file2)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{namespaceprog_a69f3b1b3ff9559df18656ff40fb0c682}\label{namespaceprog_a69f3b1b3ff9559df18656ff40fb0c682}} 
+\index{prog@{prog}!rgb\_value@{rgb\_value}}
+\index{rgb\_value@{rgb\_value}!prog@{prog}}
+\doxysubsubsection{\texorpdfstring{rgb\_value}{rgb\_value}}
+{\footnotesize\ttfamily typedef unsigned char \mbox{\hyperlink{namespaceprog_a69f3b1b3ff9559df18656ff40fb0c682}{prog\+::rgb\+\_\+value}}}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespaceprog_a16be7ab5d187e40543888b6b789c9d75}\label{namespaceprog_a16be7ab5d187e40543888b6b789c9d75}} 
+\index{prog@{prog}!comparePNG@{comparePNG}}
+\index{comparePNG@{comparePNG}!prog@{prog}}
+\doxysubsubsection{\texorpdfstring{comparePNG()}{comparePNG()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool prog\+::compare\+PNG (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file1,  }\item[{const std\+::string \&}]{file2 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceprog_ae31b266d843b5804f95a996caf27c8f0}\label{namespaceprog_ae31b266d843b5804f95a996caf27c8f0}} 
+\index{prog@{prog}!comparePNG@{comparePNG}}
+\index{comparePNG@{comparePNG}!prog@{prog}}
+\doxysubsubsection{\texorpdfstring{comparePNG()}{comparePNG()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool prog\+::compare\+PNG (\begin{DoxyParamCaption}\item[{const string \&}]{file1,  }\item[{const string \&}]{file2 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceprog_a6f61b27e03ed02fdc7fe477a1c1ca961}\label{namespaceprog_a6f61b27e03ed02fdc7fe477a1c1ca961}} 
+\index{prog@{prog}!delete\_files@{delete\_files}}
+\index{delete\_files@{delete\_files}!prog@{prog}}
+\doxysubsubsection{\texorpdfstring{delete\_files()}{delete\_files()}}
+{\footnotesize\ttfamily bool prog\+::delete\+\_\+files (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{string }\end{DoxyParamCaption})}
+
+Deletes all regular files inside the current folder (does not delete files recursively).
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & name of the folder with the files to delete \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if files could be successfully deleted, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespaceprog_a8d90d303320d4ca0d8bee90a64b0125b}\label{namespaceprog_a8d90d303320d4ca0d8bee90a64b0125b}} 
+\index{prog@{prog}!loadFromPNG@{loadFromPNG}}
+\index{loadFromPNG@{loadFromPNG}!prog@{prog}}
+\doxysubsubsection{\texorpdfstring{loadFromPNG()}{loadFromPNG()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}}$\ast$ prog\+::load\+From\+PNG (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceprog_aa01999e5ab514887725f167a558efa26}\label{namespaceprog_aa01999e5ab514887725f167a558efa26}} 
+\index{prog@{prog}!loadFromPNG@{loadFromPNG}}
+\index{loadFromPNG@{loadFromPNG}!prog@{prog}}
+\doxysubsubsection{\texorpdfstring{loadFromPNG()}{loadFromPNG()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}}$\ast$ prog\+::load\+From\+PNG (\begin{DoxyParamCaption}\item[{const string \&}]{file }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceprog_af33004ae75baa5023a6b5964a1ea2824}\label{namespaceprog_af33004ae75baa5023a6b5964a1ea2824}} 
+\index{prog@{prog}!mkdir@{mkdir}}
+\index{mkdir@{mkdir}!prog@{prog}}
+\doxysubsubsection{\texorpdfstring{mkdir()}{mkdir()}}
+{\footnotesize\ttfamily bool prog\+::mkdir (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{string }\end{DoxyParamCaption})}
+
+Ensures the folder with the given name exists.
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the name of the folder \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the folder with the name already existed, or could be created, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespaceprog_afbad3026b3045cffa26faa15e872e046}\label{namespaceprog_afbad3026b3045cffa26faa15e872e046}} 
+\index{prog@{prog}!saveToPNG@{saveToPNG}}
+\index{saveToPNG@{saveToPNG}!prog@{prog}}
+\doxysubsubsection{\texorpdfstring{saveToPNG()}{saveToPNG()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void prog\+::save\+To\+PNG (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file,  }\item[{const \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceprog_adc05b9fe456e3e2b834ec01b85970de0}\label{namespaceprog_adc05b9fe456e3e2b834ec01b85970de0}} 
+\index{prog@{prog}!saveToPNG@{saveToPNG}}
+\index{saveToPNG@{saveToPNG}!prog@{prog}}
+\doxysubsubsection{\texorpdfstring{saveToPNG()}{saveToPNG()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void prog\+::save\+To\+PNG (\begin{DoxyParamCaption}\item[{const string \&}]{file,  }\item[{const \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{image }\end{DoxyParamCaption})}
+

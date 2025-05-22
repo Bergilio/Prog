@@ -1,0 +1,105 @@
+\hypertarget{classprog_1_1command_1_1HMirror}{}\doxysection{prog\+::command\+::HMirror Class Reference}
+\label{classprog_1_1command_1_1HMirror}\index{prog::command::HMirror@{prog::command::HMirror}}
+
+
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to horizontally mirror an image.  
+
+
+
+
+{\ttfamily \#include $<$HMirror.\+hpp$>$}
+
+
+
+Inheritance diagram for prog\+::command\+::HMirror\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{classprog_1_1command_1_1HMirror__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prog\+::command\+::HMirror\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=233pt]{classprog_1_1command_1_1HMirror__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1HMirror_aac9ff11f778ea4f3e2a725fb2ec2ffff}{HMirror}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1HMirror_a96dd134689c35e4025b67ce2985b2ffa}{$\sim$\+HMirror}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1command_1_1HMirror_a6dc5b5c20ba5480331d4c1dcb397aeba}{apply}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img) override
+\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1HMirror_a139880fbb277ed0a5abf1240b9fd5420}{to\+String}} () const override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to horizontally mirror an image. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1HMirror_aac9ff11f778ea4f3e2a725fb2ec2ffff}\label{classprog_1_1command_1_1HMirror_aac9ff11f778ea4f3e2a725fb2ec2ffff}} 
+\index{prog::command::HMirror@{prog::command::HMirror}!HMirror@{HMirror}}
+\index{HMirror@{HMirror}!prog::command::HMirror@{prog::command::HMirror}}
+\doxysubsubsection{\texorpdfstring{HMirror()}{HMirror()}}
+{\footnotesize\ttfamily prog\+::command\+::\+HMirror\+::\+HMirror (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1HMirror_a96dd134689c35e4025b67ce2985b2ffa}\label{classprog_1_1command_1_1HMirror_a96dd134689c35e4025b67ce2985b2ffa}} 
+\index{prog::command::HMirror@{prog::command::HMirror}!````~HMirror@{$\sim$HMirror}}
+\index{````~HMirror@{$\sim$HMirror}!prog::command::HMirror@{prog::command::HMirror}}
+\doxysubsubsection{\texorpdfstring{$\sim$HMirror()}{~HMirror()}}
+{\footnotesize\ttfamily prog\+::command\+::\+HMirror\+::$\sim$\+HMirror (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1HMirror_a6dc5b5c20ba5480331d4c1dcb397aeba}\label{classprog_1_1command_1_1HMirror_a6dc5b5c20ba5480331d4c1dcb397aeba}} 
+\index{prog::command::HMirror@{prog::command::HMirror}!apply@{apply}}
+\index{apply@{apply}!prog::command::HMirror@{prog::command::HMirror}}
+\doxysubsubsection{\texorpdfstring{apply()}{apply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::command\+::\+HMirror\+::apply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Applies this command to an image.
+
+
+\begin{DoxyParams}{Parameters}
+{\em img} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the image after the command (can be the same pointer or a new one). If a new pointer is returned, the previous one is deleted. 
+\end{DoxyReturn}
+Swaps pixels from left and right halves of the image, creating a mirror effect along the vertical center line. This is done by swapping the pixls in each extreme of the image.
+
+Implements \mbox{\hyperlink{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}{prog\+::\+Command}}.
+
+\mbox{\Hypertarget{classprog_1_1command_1_1HMirror_a139880fbb277ed0a5abf1240b9fd5420}\label{classprog_1_1command_1_1HMirror_a139880fbb277ed0a5abf1240b9fd5420}} 
+\index{prog::command::HMirror@{prog::command::HMirror}!toString@{toString}}
+\index{toString@{toString}!prog::command::HMirror@{prog::command::HMirror}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+HMirror\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+string representation of this command, for printing
+\end{DoxyReturn}
+Default implementation that just returns the name.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}{prog\+::\+Command}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Command/\mbox{\hyperlink{HMirror_8hpp}{HMirror.\+hpp}}\item 
+src/\+Command/\mbox{\hyperlink{HMirror_8cpp}{HMirror.\+cpp}}\end{DoxyCompactItemize}

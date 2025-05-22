@@ -1,0 +1,8 @@
+<map id="include/PNG.hpp" name="include/PNG.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="37,5,166,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,64,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,229,180,256"/>
+<area shape="rect" id="node4" href="$Image_8hpp.html" title="Defines the Image class for representing a 2D image with color pixels." alt="" coords="139,80,229,107"/>
+<area shape="rect" id="node5" href="$Color_8hpp.html" title="Defines the Color class for representing RGB colors." alt="" coords="139,155,221,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="246,155,309,181"/>
+</map>

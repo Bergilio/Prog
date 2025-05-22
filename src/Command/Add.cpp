@@ -14,6 +14,10 @@ namespace prog {
 
         Add::~Add() {};
 
+        /**
+         * @brief Loads image from input file and copys each pixel that is not equal to the neutral color, inside the rectangle
+         * of the mage starting at (x, y)
+         */
         Image *Add::apply(Image *img) {
             Image *filePNG = loadFromPNG(filename);
 
@@ -25,7 +29,7 @@ namespace prog {
 
                     const Color &pixel = filePNG->at(b, a);
 
-                    if (!(pixel.red() == neutral.red() && pixel.green() == neutral.green() && pixel.blue() == neutral.blue())) {
+                    if (!(pixel == neutral)) {
                         img->at(x+b, y+a) = pixel;
                     }
                 }

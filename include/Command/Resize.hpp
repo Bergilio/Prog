@@ -1,3 +1,9 @@
+/**
+* @file Resize.hpp
+ * @brief Defines the Resize class for resizing images to specific dimensions.
+ */
+
+
 #ifndef PROJECT_RESIZE_HPP
 #define PROJECT_RESIZE_HPP
 
@@ -7,6 +13,11 @@
 namespace prog {
 
     namespace command {
+
+        /**
+         * @class Resize
+         * @brief Command to resize an image to specified dimensions at a given position.
+         */
 
         class Resize : public Command {
         public:

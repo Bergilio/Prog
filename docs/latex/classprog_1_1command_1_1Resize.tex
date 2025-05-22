@@ -1,0 +1,137 @@
+\hypertarget{classprog_1_1command_1_1Resize}{}\doxysection{prog\+::command\+::Resize Class Reference}
+\label{classprog_1_1command_1_1Resize}\index{prog::command::Resize@{prog::command::Resize}}
+
+
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to resize an image to specified dimensions at a given position.  
+
+
+
+
+{\ttfamily \#include $<$Resize.\+hpp$>$}
+
+
+
+Inheritance diagram for prog\+::command\+::Resize\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=211pt]{classprog_1_1command_1_1Resize__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prog\+::command\+::Resize\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{classprog_1_1command_1_1Resize__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Resize_a8d2cc509f5453eab42d33f20df0a2f77}{Resize}} (int \mbox{\hyperlink{classprog_1_1command_1_1Resize_a33a5dd4868a77cd41950de965a447a8c}{x}}, int \mbox{\hyperlink{classprog_1_1command_1_1Resize_a5530ec2b788eeab6619929cc9aa72095}{y}}, int \mbox{\hyperlink{classprog_1_1command_1_1Resize_a9ab8eccb000376b23be7312b33e202f3}{w}}, int \mbox{\hyperlink{classprog_1_1command_1_1Resize_a90ef57097d668d79b7db4c2a0ee9ed24}{h}})
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Resize_ad87b898b34a0f39b2562e03ffff54e77}{$\sim$\+Resize}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1command_1_1Resize_a60e220dca473d9d96e14ba3af4f241eb}{apply}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img) override
+\begin{DoxyCompactList}\small\item\em Resizes the image to specified dimensions. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Resize_a8d1d6a95fcbf2abba4ddd7fa0b4ee3ce}{to\+String}} () const override
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classprog_1_1command_1_1Resize_a33a5dd4868a77cd41950de965a447a8c}{x}}
+\item 
+int \mbox{\hyperlink{classprog_1_1command_1_1Resize_a5530ec2b788eeab6619929cc9aa72095}{y}}
+\item 
+int \mbox{\hyperlink{classprog_1_1command_1_1Resize_a9ab8eccb000376b23be7312b33e202f3}{w}}
+\item 
+int \mbox{\hyperlink{classprog_1_1command_1_1Resize_a90ef57097d668d79b7db4c2a0ee9ed24}{h}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to resize an image to specified dimensions at a given position. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Resize_a8d2cc509f5453eab42d33f20df0a2f77}\label{classprog_1_1command_1_1Resize_a8d2cc509f5453eab42d33f20df0a2f77}} 
+\index{prog::command::Resize@{prog::command::Resize}!Resize@{Resize}}
+\index{Resize@{Resize}!prog::command::Resize@{prog::command::Resize}}
+\doxysubsubsection{\texorpdfstring{Resize()}{Resize()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Resize\+::\+Resize (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{w,  }\item[{int}]{h }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Resize_ad87b898b34a0f39b2562e03ffff54e77}\label{classprog_1_1command_1_1Resize_ad87b898b34a0f39b2562e03ffff54e77}} 
+\index{prog::command::Resize@{prog::command::Resize}!````~Resize@{$\sim$Resize}}
+\index{````~Resize@{$\sim$Resize}!prog::command::Resize@{prog::command::Resize}}
+\doxysubsubsection{\texorpdfstring{$\sim$Resize()}{~Resize()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Resize\+::$\sim$\+Resize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Resize_a60e220dca473d9d96e14ba3af4f241eb}\label{classprog_1_1command_1_1Resize_a60e220dca473d9d96e14ba3af4f241eb}} 
+\index{prog::command::Resize@{prog::command::Resize}!apply@{apply}}
+\index{apply@{apply}!prog::command::Resize@{prog::command::Resize}}
+\doxysubsubsection{\texorpdfstring{apply()}{apply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::command\+::\+Resize\+::apply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Resizes the image to specified dimensions. 
+
+Creates a new image of given size, copying pixels from the source starting at (x,y) position. Areas outside source bounds are filled with default color. 
+
+Implements \mbox{\hyperlink{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}{prog\+::\+Command}}.
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Resize_a8d1d6a95fcbf2abba4ddd7fa0b4ee3ce}\label{classprog_1_1command_1_1Resize_a8d1d6a95fcbf2abba4ddd7fa0b4ee3ce}} 
+\index{prog::command::Resize@{prog::command::Resize}!toString@{toString}}
+\index{toString@{toString}!prog::command::Resize@{prog::command::Resize}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+Resize\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+string representation of this command, for printing
+\end{DoxyReturn}
+Default implementation that just returns the name.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}{prog\+::\+Command}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Resize_a90ef57097d668d79b7db4c2a0ee9ed24}\label{classprog_1_1command_1_1Resize_a90ef57097d668d79b7db4c2a0ee9ed24}} 
+\index{prog::command::Resize@{prog::command::Resize}!h@{h}}
+\index{h@{h}!prog::command::Resize@{prog::command::Resize}}
+\doxysubsubsection{\texorpdfstring{h}{h}}
+{\footnotesize\ttfamily int prog\+::command\+::\+Resize\+::h\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Resize_a9ab8eccb000376b23be7312b33e202f3}\label{classprog_1_1command_1_1Resize_a9ab8eccb000376b23be7312b33e202f3}} 
+\index{prog::command::Resize@{prog::command::Resize}!w@{w}}
+\index{w@{w}!prog::command::Resize@{prog::command::Resize}}
+\doxysubsubsection{\texorpdfstring{w}{w}}
+{\footnotesize\ttfamily int prog\+::command\+::\+Resize\+::w\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Resize_a33a5dd4868a77cd41950de965a447a8c}\label{classprog_1_1command_1_1Resize_a33a5dd4868a77cd41950de965a447a8c}} 
+\index{prog::command::Resize@{prog::command::Resize}!x@{x}}
+\index{x@{x}!prog::command::Resize@{prog::command::Resize}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily int prog\+::command\+::\+Resize\+::x\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Resize_a5530ec2b788eeab6619929cc9aa72095}\label{classprog_1_1command_1_1Resize_a5530ec2b788eeab6619929cc9aa72095}} 
+\index{prog::command::Resize@{prog::command::Resize}!y@{y}}
+\index{y@{y}!prog::command::Resize@{prog::command::Resize}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily int prog\+::command\+::\+Resize\+::y\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Command/\mbox{\hyperlink{Resize_8hpp}{Resize.\+hpp}}\item 
+src/\+Command/\mbox{\hyperlink{Resize_8cpp}{Resize.\+cpp}}\end{DoxyCompactItemize}

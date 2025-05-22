@@ -1,3 +1,8 @@
+/**
+* @file Fill.hpp
+ * @brief Defines the Fill class for filling rectangular areas with a color.
+ */
+
 #ifndef PROJECT_FILL_HPP
 #define PROJECT_FILL_HPP
 
@@ -7,6 +12,11 @@
 namespace prog {
 
     namespace command {
+
+        /**
+         * @class Fill
+         * @brief Command to fill a rectangular area with a specified color.
+         */
 
         class Fill : public Command {
         public:

@@ -1,3 +1,12 @@
+/**
+* @mainpage Image Manipulation Program
+* @section intro_sec Introduction
+* A command-driven image manipulation tool that:
+* - Represents images using RGB color models
+* - Processes scriptable commands for transformations
+* - Supports operations like cropping, filtering, and geometric transformations
+*/
+
 #include "Scrim.hpp"
 #include "ScrimParser.hpp"
 #include "Image.hpp"

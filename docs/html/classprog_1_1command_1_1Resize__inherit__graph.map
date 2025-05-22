@@ -1,0 +1,4 @@
+<map id="prog::command::Resize" name="prog::command::Resize">
+<area shape="rect" id="node1" title="Command to resize an image to specified dimensions at a given position." alt="" coords="5,80,180,107"/>
+<area shape="rect" id="node2" href="$classprog_1_1Command.html" title=" " alt="" coords="29,5,156,32"/>
+</map>

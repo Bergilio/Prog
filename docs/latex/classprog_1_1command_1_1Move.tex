@@ -1,0 +1,121 @@
+\hypertarget{classprog_1_1command_1_1Move}{}\doxysection{prog\+::command\+::Move Class Reference}
+\label{classprog_1_1command_1_1Move}\index{prog::command::Move@{prog::command::Move}}
+
+
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to move image content by specified offsets.  
+
+
+
+
+{\ttfamily \#include $<$Move.\+hpp$>$}
+
+
+
+Inheritance diagram for prog\+::command\+::Move\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{classprog_1_1command_1_1Move__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prog\+::command\+::Move\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{classprog_1_1command_1_1Move__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Move_a74285191f9d3263eae3c22cac12e9a56}{Move}} (int \mbox{\hyperlink{classprog_1_1command_1_1Move_a981c28f5b77d7063ddfa872a371e0b68}{x}}, int \mbox{\hyperlink{classprog_1_1command_1_1Move_a0b0b6bc3fdfd5bacdc375cf00a6c3ea5}{y}})
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Move_a34468cc92d048c7000dc12001e89befa}{$\sim$\+Move}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1command_1_1Move_a9046fbb8f46d7bd3afc4fcf5af4465e0}{apply}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img) override
+\begin{DoxyCompactList}\small\item\em Creates a new image of the same dimensions as the original, then copies pixels from the source image starting at the specified offset. Areas that would be outside the image bounds after the move are filled with the image\textquotesingle{}s default color. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Move_abda0e66205148f0f40a223124a73014d}{to\+String}} () const override
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classprog_1_1command_1_1Move_a981c28f5b77d7063ddfa872a371e0b68}{x}}
+\item 
+int \mbox{\hyperlink{classprog_1_1command_1_1Move_a0b0b6bc3fdfd5bacdc375cf00a6c3ea5}{y}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to move image content by specified offsets. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Move_a74285191f9d3263eae3c22cac12e9a56}\label{classprog_1_1command_1_1Move_a74285191f9d3263eae3c22cac12e9a56}} 
+\index{prog::command::Move@{prog::command::Move}!Move@{Move}}
+\index{Move@{Move}!prog::command::Move@{prog::command::Move}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Move\+::\+Move (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Move_a34468cc92d048c7000dc12001e89befa}\label{classprog_1_1command_1_1Move_a34468cc92d048c7000dc12001e89befa}} 
+\index{prog::command::Move@{prog::command::Move}!````~Move@{$\sim$Move}}
+\index{````~Move@{$\sim$Move}!prog::command::Move@{prog::command::Move}}
+\doxysubsubsection{\texorpdfstring{$\sim$Move()}{~Move()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Move\+::$\sim$\+Move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Move_a9046fbb8f46d7bd3afc4fcf5af4465e0}\label{classprog_1_1command_1_1Move_a9046fbb8f46d7bd3afc4fcf5af4465e0}} 
+\index{prog::command::Move@{prog::command::Move}!apply@{apply}}
+\index{apply@{apply}!prog::command::Move@{prog::command::Move}}
+\doxysubsubsection{\texorpdfstring{apply()}{apply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::command\+::\+Move\+::apply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Creates a new image of the same dimensions as the original, then copies pixels from the source image starting at the specified offset. Areas that would be outside the image bounds after the move are filled with the image\textquotesingle{}s default color. 
+
+
+
+Implements \mbox{\hyperlink{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}{prog\+::\+Command}}.
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Move_abda0e66205148f0f40a223124a73014d}\label{classprog_1_1command_1_1Move_abda0e66205148f0f40a223124a73014d}} 
+\index{prog::command::Move@{prog::command::Move}!toString@{toString}}
+\index{toString@{toString}!prog::command::Move@{prog::command::Move}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+Move\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+string representation of this command, for printing
+\end{DoxyReturn}
+Default implementation that just returns the name.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}{prog\+::\+Command}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Move_a981c28f5b77d7063ddfa872a371e0b68}\label{classprog_1_1command_1_1Move_a981c28f5b77d7063ddfa872a371e0b68}} 
+\index{prog::command::Move@{prog::command::Move}!x@{x}}
+\index{x@{x}!prog::command::Move@{prog::command::Move}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily int prog\+::command\+::\+Move\+::x\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Move_a0b0b6bc3fdfd5bacdc375cf00a6c3ea5}\label{classprog_1_1command_1_1Move_a0b0b6bc3fdfd5bacdc375cf00a6c3ea5}} 
+\index{prog::command::Move@{prog::command::Move}!y@{y}}
+\index{y@{y}!prog::command::Move@{prog::command::Move}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily int prog\+::command\+::\+Move\+::y\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Command/\mbox{\hyperlink{Move_8hpp}{Move.\+hpp}}\item 
+src/\+Command/\mbox{\hyperlink{Move_8cpp}{Move.\+cpp}}\end{DoxyCompactItemize}

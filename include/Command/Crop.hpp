@@ -1,3 +1,8 @@
+/**
+* @file Crop.hpp
+ * @brief Defines the Crop class for cropping images.
+ */
+
 #ifndef PROJECT_CROP_HPP
 #define PROJECT_CROP_HPP
 
@@ -7,6 +12,11 @@
 namespace prog {
 
     namespace command {
+
+        /**
+         * @class Crop
+         * @brief Command to crop an image to specified dimensions.
+         */
 
         class Crop : public Command {
         public:

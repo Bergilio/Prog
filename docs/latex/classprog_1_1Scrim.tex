@@ -1,0 +1,95 @@
+\hypertarget{classprog_1_1Scrim}{}\doxysection{prog\+::Scrim Class Reference}
+\label{classprog_1_1Scrim}\index{prog::Scrim@{prog::Scrim}}
+
+
+{\ttfamily \#include $<$Scrim.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1Scrim_a28d12344963f83ccdfe9d07fafee26d4}{Scrim}} (std\+::vector$<$ \mbox{\hyperlink{classprog_1_1Command}{Command}} $\ast$ $>$ \&\mbox{\hyperlink{classprog_1_1Scrim_a05ba287b7bff4b4f670ab3f5b044b2f0}{commands}})
+\item 
+\mbox{\hyperlink{classprog_1_1Scrim_acd3e79f8c9044be692f8b38da5e80b1a}{$\sim$\+Scrim}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1Scrim_a21ca12b4ae883fa54d29bcc7cb7eb618}{run}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img)
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1Scrim_a2a24e4b993e48607dcbb45fa0ad614b7}{run}} ()
+\item 
+std\+::vector$<$ \mbox{\hyperlink{classprog_1_1Command}{Command}} $\ast$ $>$ \mbox{\hyperlink{classprog_1_1Scrim_a8f295aa9f0f9e5e2aab2ad00f2491b06}{get\+Commands}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{classprog_1_1Command}{Command}} $\ast$ $>$ \mbox{\hyperlink{classprog_1_1Scrim_a05ba287b7bff4b4f670ab3f5b044b2f0}{commands}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1Scrim_a28d12344963f83ccdfe9d07fafee26d4}\label{classprog_1_1Scrim_a28d12344963f83ccdfe9d07fafee26d4}} 
+\index{prog::Scrim@{prog::Scrim}!Scrim@{Scrim}}
+\index{Scrim@{Scrim}!prog::Scrim@{prog::Scrim}}
+\doxysubsubsection{\texorpdfstring{Scrim()}{Scrim()}}
+{\footnotesize\ttfamily prog\+::\+Scrim\+::\+Scrim (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classprog_1_1Command}{Command}} $\ast$ $>$ \&}]{commands }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1Scrim_acd3e79f8c9044be692f8b38da5e80b1a}\label{classprog_1_1Scrim_acd3e79f8c9044be692f8b38da5e80b1a}} 
+\index{prog::Scrim@{prog::Scrim}!````~Scrim@{$\sim$Scrim}}
+\index{````~Scrim@{$\sim$Scrim}!prog::Scrim@{prog::Scrim}}
+\doxysubsubsection{\texorpdfstring{$\sim$Scrim()}{~Scrim()}}
+{\footnotesize\ttfamily prog\+::\+Scrim\+::$\sim$\+Scrim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1Scrim_a8f295aa9f0f9e5e2aab2ad00f2491b06}\label{classprog_1_1Scrim_a8f295aa9f0f9e5e2aab2ad00f2491b06}} 
+\index{prog::Scrim@{prog::Scrim}!getCommands@{getCommands}}
+\index{getCommands@{getCommands}!prog::Scrim@{prog::Scrim}}
+\doxysubsubsection{\texorpdfstring{getCommands()}{getCommands()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{classprog_1_1Command}{Command}} $\ast$ $>$ prog\+::\+Scrim\+::get\+Commands (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Provides a reference for the vector of commands.
+
+\begin{DoxyReturn}{Returns}
+a reference to the commends 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classprog_1_1Scrim_a2a24e4b993e48607dcbb45fa0ad614b7}\label{classprog_1_1Scrim_a2a24e4b993e48607dcbb45fa0ad614b7}} 
+\index{prog::Scrim@{prog::Scrim}!run@{run}}
+\index{run@{run}!prog::Scrim@{prog::Scrim}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::\+Scrim\+::run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Runs this pipeline without a starting image.
+
+\begin{DoxyReturn}{Returns}
+the image created by this pipeline 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classprog_1_1Scrim_a21ca12b4ae883fa54d29bcc7cb7eb618}\label{classprog_1_1Scrim_a21ca12b4ae883fa54d29bcc7cb7eb618}} 
+\index{prog::Scrim@{prog::Scrim}!run@{run}}
+\index{run@{run}!prog::Scrim@{prog::Scrim}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::\+Scrim\+::run (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})}
+
+Runs this pipeline starting with the given image.
+
+
+\begin{DoxyParams}{Parameters}
+{\em img} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the image created/transformed by this pipeline 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classprog_1_1Scrim_a05ba287b7bff4b4f670ab3f5b044b2f0}\label{classprog_1_1Scrim_a05ba287b7bff4b4f670ab3f5b044b2f0}} 
+\index{prog::Scrim@{prog::Scrim}!commands@{commands}}
+\index{commands@{commands}!prog::Scrim@{prog::Scrim}}
+\doxysubsubsection{\texorpdfstring{commands}{commands}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{classprog_1_1Command}{Command}} $\ast$$>$ prog\+::\+Scrim\+::commands\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{Scrim_8hpp}{Scrim.\+hpp}}\item 
+src/\mbox{\hyperlink{Scrim_8cpp}{Scrim.\+cpp}}\end{DoxyCompactItemize}

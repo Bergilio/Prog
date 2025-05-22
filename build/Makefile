@@ -312,6 +312,33 @@ src/Command/Blank.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Blank.cpp.s
 .PHONY : src/Command/Blank.cpp.s
 
+src/Command/Chain.o: src/Command/Chain.cpp.o
+.PHONY : src/Command/Chain.o
+
+# target to build an object file
+src/Command/Chain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Chain.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Chain.cpp.o
+.PHONY : src/Command/Chain.cpp.o
+
+src/Command/Chain.i: src/Command/Chain.cpp.i
+.PHONY : src/Command/Chain.i
+
+# target to preprocess a source file
+src/Command/Chain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Chain.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Chain.cpp.i
+.PHONY : src/Command/Chain.cpp.i
+
+src/Command/Chain.s: src/Command/Chain.cpp.s
+.PHONY : src/Command/Chain.s
+
+# target to generate assembly for a file
+src/Command/Chain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Chain.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Chain.cpp.s
+.PHONY : src/Command/Chain.cpp.s
+
 src/Command/Crop.o: src/Command/Crop.cpp.o
 .PHONY : src/Command/Crop.o
 
@@ -636,6 +663,33 @@ src/Command/ScaleUp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.s
 .PHONY : src/Command/ScaleUp.cpp.s
 
+src/Command/Slide.o: src/Command/Slide.cpp.o
+.PHONY : src/Command/Slide.o
+
+# target to build an object file
+src/Command/Slide.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Slide.cpp.o
+.PHONY : src/Command/Slide.cpp.o
+
+src/Command/Slide.i: src/Command/Slide.cpp.i
+.PHONY : src/Command/Slide.i
+
+# target to preprocess a source file
+src/Command/Slide.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Slide.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Slide.cpp.i
+.PHONY : src/Command/Slide.cpp.i
+
+src/Command/Slide.s: src/Command/Slide.cpp.s
+.PHONY : src/Command/Slide.s
+
+# target to generate assembly for a file
+src/Command/Slide.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Slide.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Slide.cpp.s
+.PHONY : src/Command/Slide.cpp.s
+
 src/Command/ToGrayScale.o: src/Command/ToGrayScale.cpp.o
 .PHONY : src/Command/ToGrayScale.o
 
@@ -689,33 +743,6 @@ src/Command/Vmirror.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Vmirror.cpp.s
 .PHONY : src/Command/Vmirror.cpp.s
-
-src/Command/slide.o: src/Command/slide.cpp.o
-.PHONY : src/Command/slide.o
-
-# target to build an object file
-src/Command/slide.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/slide.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/slide.cpp.o
-.PHONY : src/Command/slide.cpp.o
-
-src/Command/slide.i: src/Command/slide.cpp.i
-.PHONY : src/Command/slide.i
-
-# target to preprocess a source file
-src/Command/slide.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/slide.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/slide.cpp.i
-.PHONY : src/Command/slide.cpp.i
-
-src/Command/slide.s: src/Command/slide.cpp.s
-.PHONY : src/Command/slide.s
-
-# target to generate assembly for a file
-src/Command/slide.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/slide.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/slide.cpp.s
-.PHONY : src/Command/slide.cpp.s
 
 src/Image.o: src/Image.cpp.o
 .PHONY : src/Image.o
@@ -908,6 +935,9 @@ help:
 	@echo "... src/Command/Blank.o"
 	@echo "... src/Command/Blank.i"
 	@echo "... src/Command/Blank.s"
+	@echo "... src/Command/Chain.o"
+	@echo "... src/Command/Chain.i"
+	@echo "... src/Command/Chain.s"
 	@echo "... src/Command/Crop.o"
 	@echo "... src/Command/Crop.i"
 	@echo "... src/Command/Crop.s"
@@ -944,15 +974,15 @@ help:
 	@echo "... src/Command/ScaleUp.o"
 	@echo "... src/Command/ScaleUp.i"
 	@echo "... src/Command/ScaleUp.s"
+	@echo "... src/Command/Slide.o"
+	@echo "... src/Command/Slide.i"
+	@echo "... src/Command/Slide.s"
 	@echo "... src/Command/ToGrayScale.o"
 	@echo "... src/Command/ToGrayScale.i"
 	@echo "... src/Command/ToGrayScale.s"
 	@echo "... src/Command/Vmirror.o"
 	@echo "... src/Command/Vmirror.i"
 	@echo "... src/Command/Vmirror.s"
-	@echo "... src/Command/slide.o"
-	@echo "... src/Command/slide.i"
-	@echo "... src/Command/slide.s"
 	@echo "... src/Image.o"
 	@echo "... src/Image.i"
 	@echo "... src/Image.s"

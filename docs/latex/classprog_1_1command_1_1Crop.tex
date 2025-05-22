@@ -1,0 +1,137 @@
+\hypertarget{classprog_1_1command_1_1Crop}{}\doxysection{prog\+::command\+::Crop Class Reference}
+\label{classprog_1_1command_1_1Crop}\index{prog::command::Crop@{prog::command::Crop}}
+
+
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to crop an image to specified dimensions.  
+
+
+
+
+{\ttfamily \#include $<$Crop.\+hpp$>$}
+
+
+
+Inheritance diagram for prog\+::command\+::Crop\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{classprog_1_1command_1_1Crop__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prog\+::command\+::Crop\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{classprog_1_1command_1_1Crop__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Crop_a6124e12e9eb15f8f539c816d9963fd6e}{Crop}} (int \mbox{\hyperlink{classprog_1_1command_1_1Crop_aa78ea0ce7977e1010e57c9e123a2dd2f}{x}}, int \mbox{\hyperlink{classprog_1_1command_1_1Crop_a95be71ead8dd792dcc7a46e4a9b0c8d4}{y}}, int \mbox{\hyperlink{classprog_1_1command_1_1Crop_aac7a2fbcfd2cb501ddec7d1ab6b3bf9c}{w}}, int \mbox{\hyperlink{classprog_1_1command_1_1Crop_ab4d0af0d22542dc86ddda0a9dda642fa}{h}})
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1Crop_a6682f6e688dd11f832894a2e7f744979}{$\sim$\+Crop}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1command_1_1Crop_acbd1ef24e087b90ab8b01abc50df3859}{apply}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img) override
+\begin{DoxyCompactList}\small\item\em Creates new image with desired dimension and copys all the pixels inside the rectangle of the original image with top-\/left corner (x, y) \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1Crop_a1a5e786e55e2a066cd83c192b87f0c52}{to\+String}} () const override
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classprog_1_1command_1_1Crop_aa78ea0ce7977e1010e57c9e123a2dd2f}{x}}
+\item 
+int \mbox{\hyperlink{classprog_1_1command_1_1Crop_a95be71ead8dd792dcc7a46e4a9b0c8d4}{y}}
+\item 
+int \mbox{\hyperlink{classprog_1_1command_1_1Crop_aac7a2fbcfd2cb501ddec7d1ab6b3bf9c}{w}}
+\item 
+int \mbox{\hyperlink{classprog_1_1command_1_1Crop_ab4d0af0d22542dc86ddda0a9dda642fa}{h}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to crop an image to specified dimensions. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Crop_a6124e12e9eb15f8f539c816d9963fd6e}\label{classprog_1_1command_1_1Crop_a6124e12e9eb15f8f539c816d9963fd6e}} 
+\index{prog::command::Crop@{prog::command::Crop}!Crop@{Crop}}
+\index{Crop@{Crop}!prog::command::Crop@{prog::command::Crop}}
+\doxysubsubsection{\texorpdfstring{Crop()}{Crop()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Crop\+::\+Crop (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{w,  }\item[{int}]{h }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Crop_a6682f6e688dd11f832894a2e7f744979}\label{classprog_1_1command_1_1Crop_a6682f6e688dd11f832894a2e7f744979}} 
+\index{prog::command::Crop@{prog::command::Crop}!````~Crop@{$\sim$Crop}}
+\index{````~Crop@{$\sim$Crop}!prog::command::Crop@{prog::command::Crop}}
+\doxysubsubsection{\texorpdfstring{$\sim$Crop()}{~Crop()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Crop\+::$\sim$\+Crop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Crop_acbd1ef24e087b90ab8b01abc50df3859}\label{classprog_1_1command_1_1Crop_acbd1ef24e087b90ab8b01abc50df3859}} 
+\index{prog::command::Crop@{prog::command::Crop}!apply@{apply}}
+\index{apply@{apply}!prog::command::Crop@{prog::command::Crop}}
+\doxysubsubsection{\texorpdfstring{apply()}{apply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::command\+::\+Crop\+::apply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Creates new image with desired dimension and copys all the pixels inside the rectangle of the original image with top-\/left corner (x, y) 
+
+
+
+Implements \mbox{\hyperlink{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}{prog\+::\+Command}}.
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Crop_a1a5e786e55e2a066cd83c192b87f0c52}\label{classprog_1_1command_1_1Crop_a1a5e786e55e2a066cd83c192b87f0c52}} 
+\index{prog::command::Crop@{prog::command::Crop}!toString@{toString}}
+\index{toString@{toString}!prog::command::Crop@{prog::command::Crop}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+Crop\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+string representation of this command, for printing
+\end{DoxyReturn}
+Default implementation that just returns the name.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}{prog\+::\+Command}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1Crop_ab4d0af0d22542dc86ddda0a9dda642fa}\label{classprog_1_1command_1_1Crop_ab4d0af0d22542dc86ddda0a9dda642fa}} 
+\index{prog::command::Crop@{prog::command::Crop}!h@{h}}
+\index{h@{h}!prog::command::Crop@{prog::command::Crop}}
+\doxysubsubsection{\texorpdfstring{h}{h}}
+{\footnotesize\ttfamily int prog\+::command\+::\+Crop\+::h\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Crop_aac7a2fbcfd2cb501ddec7d1ab6b3bf9c}\label{classprog_1_1command_1_1Crop_aac7a2fbcfd2cb501ddec7d1ab6b3bf9c}} 
+\index{prog::command::Crop@{prog::command::Crop}!w@{w}}
+\index{w@{w}!prog::command::Crop@{prog::command::Crop}}
+\doxysubsubsection{\texorpdfstring{w}{w}}
+{\footnotesize\ttfamily int prog\+::command\+::\+Crop\+::w\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Crop_aa78ea0ce7977e1010e57c9e123a2dd2f}\label{classprog_1_1command_1_1Crop_aa78ea0ce7977e1010e57c9e123a2dd2f}} 
+\index{prog::command::Crop@{prog::command::Crop}!x@{x}}
+\index{x@{x}!prog::command::Crop@{prog::command::Crop}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily int prog\+::command\+::\+Crop\+::x\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1Crop_a95be71ead8dd792dcc7a46e4a9b0c8d4}\label{classprog_1_1command_1_1Crop_a95be71ead8dd792dcc7a46e4a9b0c8d4}} 
+\index{prog::command::Crop@{prog::command::Crop}!y@{y}}
+\index{y@{y}!prog::command::Crop@{prog::command::Crop}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily int prog\+::command\+::\+Crop\+::y\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Command/\mbox{\hyperlink{Crop_8hpp}{Crop.\+hpp}}\item 
+src/\+Command/\mbox{\hyperlink{Crop_8cpp}{Crop.\+cpp}}\end{DoxyCompactItemize}

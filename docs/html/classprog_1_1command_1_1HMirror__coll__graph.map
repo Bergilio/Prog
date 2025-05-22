@@ -1,0 +1,5 @@
+<map id="prog::command::HMirror" name="prog::command::HMirror">
+<area shape="rect" id="node1" title="Command to horizontally mirror an image." alt="" coords="5,171,187,197"/>
+<area shape="rect" id="node2" href="$classprog_1_1Command.html" title=" " alt="" coords="33,95,159,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="67,5,125,32"/>
+</map>

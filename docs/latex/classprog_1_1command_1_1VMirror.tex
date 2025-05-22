@@ -1,0 +1,99 @@
+\hypertarget{classprog_1_1command_1_1VMirror}{}\doxysection{prog\+::command\+::VMirror Class Reference}
+\label{classprog_1_1command_1_1VMirror}\index{prog::command::VMirror@{prog::command::VMirror}}
+
+
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to vertically mirror an image.  
+
+
+
+
+{\ttfamily \#include $<$VMirror.\+hpp$>$}
+
+
+
+Inheritance diagram for prog\+::command\+::VMirror\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=215pt]{classprog_1_1command_1_1VMirror__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prog\+::command\+::VMirror\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=233pt]{classprog_1_1command_1_1VMirror__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1VMirror_a99bd5f7787be29078ee5a103ab54388f}{VMirror}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1VMirror_af40d4976ad3f953f66551c19439169dc}{$\sim$\+VMirror}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1command_1_1VMirror_ad41185ef31aa23f725575ae1a98a6f13}{apply}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img) override
+\begin{DoxyCompactList}\small\item\em Vertically mirrors the image (flips top-\/to-\/bottom) \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1VMirror_ab7bafceefade0a44c6795288ca4bd6b8}{to\+String}} () const override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to vertically mirror an image. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1VMirror_a99bd5f7787be29078ee5a103ab54388f}\label{classprog_1_1command_1_1VMirror_a99bd5f7787be29078ee5a103ab54388f}} 
+\index{prog::command::VMirror@{prog::command::VMirror}!VMirror@{VMirror}}
+\index{VMirror@{VMirror}!prog::command::VMirror@{prog::command::VMirror}}
+\doxysubsubsection{\texorpdfstring{VMirror()}{VMirror()}}
+{\footnotesize\ttfamily prog\+::command\+::\+VMirror\+::\+VMirror (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1VMirror_af40d4976ad3f953f66551c19439169dc}\label{classprog_1_1command_1_1VMirror_af40d4976ad3f953f66551c19439169dc}} 
+\index{prog::command::VMirror@{prog::command::VMirror}!````~VMirror@{$\sim$VMirror}}
+\index{````~VMirror@{$\sim$VMirror}!prog::command::VMirror@{prog::command::VMirror}}
+\doxysubsubsection{\texorpdfstring{$\sim$VMirror()}{~VMirror()}}
+{\footnotesize\ttfamily prog\+::command\+::\+VMirror\+::$\sim$\+VMirror (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1VMirror_ad41185ef31aa23f725575ae1a98a6f13}\label{classprog_1_1command_1_1VMirror_ad41185ef31aa23f725575ae1a98a6f13}} 
+\index{prog::command::VMirror@{prog::command::VMirror}!apply@{apply}}
+\index{apply@{apply}!prog::command::VMirror@{prog::command::VMirror}}
+\doxysubsubsection{\texorpdfstring{apply()}{apply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::command\+::\+VMirror\+::apply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Vertically mirrors the image (flips top-\/to-\/bottom) 
+
+Performs an in-\/place vertical flip of the image by swapping pixels between the top and bottom halves. The operation works by exchanging rows symmetrically about the horizontal center line of the image. 
+
+Implements \mbox{\hyperlink{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}{prog\+::\+Command}}.
+
+\mbox{\Hypertarget{classprog_1_1command_1_1VMirror_ab7bafceefade0a44c6795288ca4bd6b8}\label{classprog_1_1command_1_1VMirror_ab7bafceefade0a44c6795288ca4bd6b8}} 
+\index{prog::command::VMirror@{prog::command::VMirror}!toString@{toString}}
+\index{toString@{toString}!prog::command::VMirror@{prog::command::VMirror}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+VMirror\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+string representation of this command, for printing
+\end{DoxyReturn}
+Default implementation that just returns the name.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}{prog\+::\+Command}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Command/\mbox{\hyperlink{VMirror_8hpp}{VMirror.\+hpp}}\item 
+src/\+Command/\mbox{\hyperlink{Vmirror_8cpp}{Vmirror.\+cpp}}\end{DoxyCompactItemize}

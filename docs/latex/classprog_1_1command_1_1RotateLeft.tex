@@ -1,0 +1,99 @@
+\hypertarget{classprog_1_1command_1_1RotateLeft}{}\doxysection{prog\+::command\+::Rotate\+Left Class Reference}
+\label{classprog_1_1command_1_1RotateLeft}\index{prog::command::RotateLeft@{prog::command::RotateLeft}}
+
+
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to rotate an image 90 degrees to the left.  
+
+
+
+
+{\ttfamily \#include $<$Rotate\+Left.\+hpp$>$}
+
+
+
+Inheritance diagram for prog\+::command\+::Rotate\+Left\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{classprog_1_1command_1_1RotateLeft__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prog\+::command\+::Rotate\+Left\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{classprog_1_1command_1_1RotateLeft__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1RotateLeft_af3efb79e2a3bd177e1c86fa7f6cb2bb6}{Rotate\+Left}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1command_1_1RotateLeft_a5df727efd5fbc98cc63a4a3ea56092fc}{$\sim$\+Rotate\+Left}} ()
+\item 
+\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ \mbox{\hyperlink{classprog_1_1command_1_1RotateLeft_aeb31a8064219e291d7eeae3b31001a50}{apply}} (\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$img) override
+\begin{DoxyCompactList}\small\item\em Rotates the image 90 degrees counter-\/clockwise. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classprog_1_1command_1_1RotateLeft_adb8f43737422060fd31670abe0e2f062}{to\+String}} () const override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classprog_1_1Command}{Command}} to rotate an image 90 degrees to the left. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1RotateLeft_af3efb79e2a3bd177e1c86fa7f6cb2bb6}\label{classprog_1_1command_1_1RotateLeft_af3efb79e2a3bd177e1c86fa7f6cb2bb6}} 
+\index{prog::command::RotateLeft@{prog::command::RotateLeft}!RotateLeft@{RotateLeft}}
+\index{RotateLeft@{RotateLeft}!prog::command::RotateLeft@{prog::command::RotateLeft}}
+\doxysubsubsection{\texorpdfstring{RotateLeft()}{RotateLeft()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Rotate\+Left\+::\+Rotate\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classprog_1_1command_1_1RotateLeft_a5df727efd5fbc98cc63a4a3ea56092fc}\label{classprog_1_1command_1_1RotateLeft_a5df727efd5fbc98cc63a4a3ea56092fc}} 
+\index{prog::command::RotateLeft@{prog::command::RotateLeft}!````~RotateLeft@{$\sim$RotateLeft}}
+\index{````~RotateLeft@{$\sim$RotateLeft}!prog::command::RotateLeft@{prog::command::RotateLeft}}
+\doxysubsubsection{\texorpdfstring{$\sim$RotateLeft()}{~RotateLeft()}}
+{\footnotesize\ttfamily prog\+::command\+::\+Rotate\+Left\+::$\sim$\+Rotate\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classprog_1_1command_1_1RotateLeft_aeb31a8064219e291d7eeae3b31001a50}\label{classprog_1_1command_1_1RotateLeft_aeb31a8064219e291d7eeae3b31001a50}} 
+\index{prog::command::RotateLeft@{prog::command::RotateLeft}!apply@{apply}}
+\index{apply@{apply}!prog::command::RotateLeft@{prog::command::RotateLeft}}
+\doxysubsubsection{\texorpdfstring{apply()}{apply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$ prog\+::command\+::\+Rotate\+Left\+::apply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classprog_1_1Image}{Image}} $\ast$}]{img }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Rotates the image 90 degrees counter-\/clockwise. 
+
+Creates a new image where the original\textquotesingle{}s columns become rows and rows become columns. Then it assigns each (x, y) pixel to (y, nr. of columns -\/ x), performing the left rotation. 
+
+Implements \mbox{\hyperlink{classprog_1_1Command_a32b1033ddff539152eee1de97a6b8a34}{prog\+::\+Command}}.
+
+\mbox{\Hypertarget{classprog_1_1command_1_1RotateLeft_adb8f43737422060fd31670abe0e2f062}\label{classprog_1_1command_1_1RotateLeft_adb8f43737422060fd31670abe0e2f062}} 
+\index{prog::command::RotateLeft@{prog::command::RotateLeft}!toString@{toString}}
+\index{toString@{toString}!prog::command::RotateLeft@{prog::command::RotateLeft}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string prog\+::command\+::\+Rotate\+Left\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+string representation of this command, for printing
+\end{DoxyReturn}
+Default implementation that just returns the name.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classprog_1_1Command_a0d97ba55df62c02cb786eea256a7a55a}{prog\+::\+Command}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Command/\mbox{\hyperlink{RotateLeft_8hpp}{Rotate\+Left.\+hpp}}\item 
+src/\+Command/\mbox{\hyperlink{RotateLeft_8cpp}{Rotate\+Left.\+cpp}}\end{DoxyCompactItemize}

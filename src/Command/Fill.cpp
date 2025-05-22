@@ -14,12 +14,14 @@ namespace prog {
 
         Image *Fill::apply(Image *img) {
 
+            /**
+           * @brief Assigns input color (fill) to all the pixels of the orginal image inside
+           * the rectangle defined by the top-left corner (x,y), width w, and height h
+           */
             for (int i = y; i < y + h && i < img->height(); i++) {
                 for (int j = x; j < x + w && j < img->width(); j++) {
                     Color& c = img->at(j, i);
-                    c.red() = fill.red();
-                    c.green() = fill.green();
-                    c.blue() = fill.blue();
+                    c = fill;
                 }
             }
             return img;

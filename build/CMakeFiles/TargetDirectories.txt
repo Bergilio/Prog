@@ -1,5 +1,0 @@
-/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles/runscrim.dir
-/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles/tester.dir
-/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles/delivery.dir
-/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles/edit_cache.dir
-/home/pedro/LEIC/1stYear/Prog/project/build/CMakeFiles/rebuild_cache.dir
